@@ -1,0 +1,41 @@
+.sponsors-list {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  p {
+    // display: inline-block;
+    // width: 33.333%;
+    font-size: 1.2em;
+  }
+}
+.sponsors-title {
+  // margin-top: 3em;
+  text-align: left;
+  margin-left: 0.5em;
+}
+.sponsors-title-text {
+  margin-left: 1em;
+  text-align: left;
+  display: block;
+  vertical-align: middle;
+  font-size: 0.7em;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.sponsor-class {
+  background: #aaaaaa;
+  box-shadow: 0 0 1px rgba(76,86,103,.25), 0 2px 18px rgba(31,37,50,.32);
+  font-weight: bold;
+  // color: white;
+  // opacity: 0.2;
+  // border: solid 0.5em white;
+  margin: 0.5em;
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  height: 32em;
+    h3 {
+      text-decoration: underline;
+    }
+}

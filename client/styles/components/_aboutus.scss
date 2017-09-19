@@ -1,0 +1,39 @@
+.about-us-container {
+  // text-align: center;
+  width: 85%;
+  margin: auto;
+   p {
+     background: #ff9b9b;
+     font-size: 1.2em;
+     padding: 0em 1em 1em 1em;
+   }
+   h3 {
+     background: #ff9b9b;
+     margin-bottom: 0em;
+     padding: 0.5em 0em 0.5em 1em;
+   }
+}
+.shadow-box {
+  box-shadow: 0 0 1px rgba(76,86,103,.25), 0 2px 18px rgba(31,37,50,.32);
+}
+.aboutus-title {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.council-title {
+  text-align: center;
+}
+.booster-council {
+  width: 90%;
+  margin: auto;
+}
+.council-member {
+  text-align: center;
+  font-size: 1.2em;
+  display: inline-block;
+  width: 33.333%;
+  margin: auto;
+  margin-bottom: 0.5em;
+  border: 1px solid black;
+}
