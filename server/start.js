@@ -1,11 +1,11 @@
 'use strict';
 
-const bindings = require('bindings')('binding.node')
+// const bindings = require('bindings')('binding.node')
+console.log('getting started');
 const chalk =  require('chalk');
 const app = require('./index');
 const server = require('http').createServer(app);
 const port = process.env.PORT || 3030;
-console.log('getting started');
 require('./models');
 
 server.listen(port, () => {
