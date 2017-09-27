@@ -5,7 +5,7 @@ const Sequelize = require('sequelize');
 const chalk = require('chalk');
 const debug = require('debug')('sql');
 const name = 'pawpawschools';
-const url = process.env.DATABASE_URL || `postgres://:5432/${name}`;
+const url = process.env.DATABASE_URL || `postgres://postgres:booster2017@localhost:5432/${name}`;
 
 console.log(chalk.yellow(`Opening database connection to ${url}`));
 
