@@ -4,7 +4,7 @@ import {Link} from 'react-router';
 const Navbar = (props) => {
   return (
     <div>
-    <nav className="navbar navbar navbar-fixed-top" role="navigation">
+    {/* <nav className="navbar navbar navbar-fixed-top" role="navigation">
       <div className="container-fluid">
         <div className="navbar-header" id='navHeader' >
           <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -30,7 +30,25 @@ const Navbar = (props) => {
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> */}
+
+    <div className="nav-header" >
+      <Link href="/">
+        <a className="logo">Paw Paw Boosters</a>
+      </Link>
+      <Link to="http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1" target="_blank">
+        <a className="link-style" >SignUp</a>
+      </Link>
+      <Link href="/events">
+        <a className="link-style" >Events</a>
+      </Link>
+      <Link to="/assets/pawpaw_bilaws.pdf" target="_blank">
+        <a className="link-style" >Bi-laws</a>
+      </Link>
+      <Link href="/aboutus">
+        <a className="link-style" >About Us</a>
+      </Link>
+    </div>
   </div>
   );
 };
