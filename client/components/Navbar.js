@@ -16,28 +16,14 @@ const Navbar = (props) => {
           </button>
             <a className='navbar-brand' href='/'>
               <div>
-                {/* <span className="nav-no">Paw</span> */}
                 <span className="nav-tion">Paw Paw Boosters</span>
               </div>
             </a>
-              {/* <button className="ion-gear-b navbarGearIcon" style={{fontSize: '2em', marginTop: '10px', paddingLeft: '10px'}} type='button' onClick={() => { props.toggleSidebar('sidebarToggle'); }}></button> */}
           </div>
-            {/* { props.location === `/boards/${props.board.hash}` ? (
-              <Link to={`/note?board=${props.board.hash}`} className='navbar-brand navTitle' >{props.board.name}</Link>) : null } */}
 
-          <div id='navbar' className={props.navClass} style={{float: 'right'}} aria-expanded={props.aria}>
+          <div id='navbar' className={props.navClass} aria-expanded={props.aria}>
             <ul className="nav navbar-nav" onClick={() => { props.newPage(); }}>
-              {/* { Object.keys(props.user).length ? <li className="navbar-newsfeed"><Link to="/newsfeed"><i className="glyphicon glyphicon-envelope"></i>{props.numOfUnread > 0 ? <span className="navbar-newsfeed-number">{props.numOfUnread}</span> : null }</Link></li> : null } */}
-
-              {/* { !Object.keys(props.user).length ? (
-                <li><Link to="/signup">Login/SignUp</Link></li>
-              ) : (
-                <li><Link onClick={() => { props.logoutUser(); }}>Logout</Link></li>
-              )
-              } */}
               <li><Link to="http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1" target="_blank">Sign Up</Link></li>
-              {/* <li><Link to="/">Events</Link></li> */}
-              {/* <li><Link to="/sponsers">Sponsers</Link></li> */}
               <li><Link to="/events">Events</Link></li>
               <li><Link to="/assets/pawpaw_bilaws.pdf" target="_blank">Bi-laws</Link></li>
               <li><Link to="/aboutus">About Us</Link></li>
