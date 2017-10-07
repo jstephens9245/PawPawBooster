@@ -7,7 +7,7 @@ const About = (props) => {
         <h2 className="aboutus-title">Paw Paw Redskins Athletic Booster Inc.</h2>
           <div className="shadow-box">
             <h3>What are we?</h3>
-            <p>
+            <p className="aboutus-paragraphs" >
               A non-profit, 501c3 volunteer organization, made up of parents, coaches
               and community members that work to compliment the high school athletic
               department. The Booster Club works to enhance the facilities, equipment
@@ -16,7 +16,7 @@ const About = (props) => {
           </div>
           <div className="shadow-box">
             <h3>What do we do?</h3>
-            <p>
+            <p className="aboutus-paragraphs" >
               The following are a few examples of what the Booster Club provides funds
               for: coaching clinics, team camps, upgrades to sports facilities and
               possible needed equipment and much more!
@@ -24,7 +24,7 @@ const About = (props) => {
           </div>
           <div className="shadow-box">
             <h3>What do we need from you?</h3>
-            <p>
+            <p className="aboutus-paragraphs" >
               We need your help! We are in need of more parent involvement. A
               parent’s level of involvement is completely up to you! Your willingness
               to become involved with the Booster Club would be greatly appreciated
@@ -34,7 +34,7 @@ const About = (props) => {
           </div>
           <div className="shadow-box">
             <h3>Why should you get involved?</h3>
-            <p>
+            <p className="aboutus-paragraphs" >
               Participating in the Boosters is a great way to volunteer your time to
               provide Paw Paw athletes, coaches and sports programs with additional
               opportunities that they may not be able to experience otherwise! It’s
@@ -48,7 +48,7 @@ const About = (props) => {
           </div>
           <div className="shadow-box">
             <h3>When do we meet? Anyone is welcome to attend a meeting!</h3>
-            <p>
+            <p className="aboutus-paragraphs" >
               Meetings are held on the first Monday of each month unless it falls
               on a holiday, in the high school teacher’s lounge @ 6:30. Meeting
               information is typically located in the Paw Paw High School daily

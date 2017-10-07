@@ -1,2 +1,5 @@
 /* SHARED CONSTANTS */
 export const TOGGLE_CLICK = 'TOGGLE_CLICK';
+
+export const RECEIVE_EVENTS = 'RECEIVE_EVENTS';
+export const ADD_NEW_EVENT = 'ADD_NEW_EVENT';

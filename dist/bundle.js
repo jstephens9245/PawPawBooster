@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d5e0aba3d87e0a9fb739"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "207b4d6f479d7bd92660"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -1080,7 +1080,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Comfortaa);", ""]);
 	
 	// module
-	exports.push([module.id, "/** Settings\n */\n/** Tools\n * Mixins / Functions\n */\n/** Generic\n * Resets\n */\nbody {\n  box-sizing: border-box; }\n\n*, *::before, *::after {\n  position: relative;\n  box-sizing: inherit; }\n\nbody {\n  margin-top: 50px; }\n\n/** Base\n * Element styles (no classes)\n */\n/** Objects\n * Reusable layout patterns\n * class prefix: `o-`\n */\n.o-aspect-ratio {\n  display: block; }\n\n.o-aspect-ratio__inner {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%; }\n\n.o-aspect-ratio--sq {\n  padding: 100% 0 0 0; }\n\n.o-aspect-ratio--2-1 {\n  padding: 50% 0 0 0; }\n\n.o-aspect-ratio--1-2 {\n  padding: 200% 0 0 0; }\n\n/** Components\n * Patterns with a visual design\n * class prefix: `c-`\n */\n.nav-header a {\n  padding: 1em;\n  text-decoration: none;\n  color: black; }\n\n.mission-statement {\n  display: inline-block;\n  margin-left: 7em;\n  font-weight: bold; }\n\n.logo {\n  font-size: 2em;\n  margin-left: 2em; }\n\n.link-style {\n  font-size: 1.2em; }\n\n@media screen and (max-width: 1415px) {\n  .mission-statement {\n    margin-left: 5em; } }\n\n@media screen and (max-width: 1380px) {\n  .mission-statement {\n    margin-left: 3em; } }\n\n@media screen and (max-width: 1345px) {\n  .mission-statement {\n    margin-left: 1em; } }\n\n@media screen and (max-width: 1315px) {\n  .mission-statement {\n    display: none; } }\n\n@media screen and (max-width: 368px) {\n  .link-style {\n    font-size: 1em; }\n  .nav-header a {\n    padding: 0.5em; } }\n\n.homepage-container {\n  overflow: hidden;\n  position: relative;\n  font-family: \"Open Sans\", sans-serif; }\n\n.homepage-main-image-container {\n  position: relative; }\n\n.homepage-main-image {\n  width: 100vw;\n  max-width: 100%; }\n\n.main-slogan {\n  position: absolute;\n  top: 10%;\n  color: #fff;\n  font-size: 1.5rem;\n  font-weight: bold;\n  text-transform: uppercase;\n  text-align: center;\n  z-index: 999;\n  width: 100%;\n  text-shadow: 1px 1px 10px #000; }\n\n.main-mini-desc {\n  position: absolute;\n  top: 20%;\n  font-style: italic;\n  color: #fff;\n  font-size: 1.3rem;\n  text-align: center;\n  z-index: 999;\n  width: 100%;\n  text-shadow: 1px 1px 10px #000; }\n\ninput:focus {\n  outline: none; }\n\nbutton:focus {\n  outline: none; }\n\n.main-signup-button-container {\n  position: absolute;\n  top: 40%;\n  font-size: 1.8rem;\n  width: 100%;\n  text-align: center; }\n\n.main-signup-button {\n  width: 80%;\n  border-radius: 500px;\n  background-color: red;\n  color: white;\n  font-weight: bold;\n  font-family: \"Permanent Marker\";\n  border: none;\n  padding: 1.5rem 3rem;\n  cursor: pointer; }\n\n.main-signup-button:hover {\n  background-color: black;\n  color: red; }\n\n.postit-view {\n  position: absolute;\n  top: 70%;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  width: 100%;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  font-family: \"Caveat Brush\"; }\n\n.bulb-img {\n  width: 100%;\n  vertical-align: top; }\n\n.postit {\n  box-sizing: border-box;\n  margin: 0.2em;\n  min-width: 3.7rem;\n  max-width: 3.7rem;\n  height: 3.7rem;\n  padding: 0.1em;\n  border: 1px solid #E8E8E8;\n  font-size: 1.8rem;\n  text-align: center;\n  border-bottom-right-radius: 60px 5px;\n  vertical-align: middle; }\n\n.postit:nth-child(even) {\n  -webkit-transform: rotate(4deg);\n  -moz-transform: rotate(4deg); }\n\n.postit:nth-child(odd) {\n  -webkit-transform: rotate(-4deg);\n  -moz-transform: rotate(-4deg); }\n\n.yellow {\n  background: linear-gradient(135deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%); }\n\n.lightyellow {\n  background: linear-gradient(135deg, #ffffa5 81%, #ffffa5 82%, #ffffa5 82%, #ffffc6 100%); }\n\n.pink {\n  background: linear-gradient(135deg, #ff879b 81%, #ff879b 82%, #ffc7d0 100%); }\n\n.green {\n  background: linear-gradient(135deg, #b1ff87 81%, #b1ff87 82%, #dbffc7 100%); }\n\n.blue {\n  background: linear-gradient(135deg, #b3e8ff 81%, #b3e8ff 82%, #b3e8ff 100%); }\n\n.brightgreen {\n  background: linear-gradient(135deg, #b3ffc0 81%, #b3ffc0 82%, #dbffc7 100%); }\n\n.border-line {\n  width: 90%;\n  border-bottom: 2px solid #7e8890;\n  margin: 0 auto;\n  margin-top: 3em; }\n\n.desc-container {\n  color: #333c4e; }\n\n.left-desc {\n  width: 100%;\n  padding: 0.8em;\n  line-height: 1.5em; }\n\n.left-desc-title {\n  width: 100%;\n  text-align: center;\n  font-weight: 300;\n  font-size: 1.5rem;\n  background: #ff9b9b; }\n\n.left-desc-content {\n  width: 100%;\n  text-align: center;\n  font-weight: 300;\n  font-size: 1rem;\n  background: #ff9b9b; }\n\n.volunteer {\n  width: 100%;\n  text-align: center;\n  font-weight: 300;\n  font-size: 1rem;\n  background: #ff9b9b;\n  color: black; }\n\n.right-desc {\n  width: 100%; }\n  .right-desc img {\n    box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); }\n\n.right-desc-img {\n  width: 100%; }\n\n.team-desc {\n  display: none; }\n\n@media screen and (min-device-width: 414px) {\n  .main-slogan {\n    letter-spacing: 0.1em;\n    font-size: 1.9rem;\n    font-weight: normal; }\n  .main-mini-desc {\n    font-size: 1.6rem;\n    font-weight: normal; }\n  .main-signup-button {\n    width: 90%;\n    font-size: 1.9rem; }\n  .postit {\n    min-width: 4.6rem;\n    max-width: 4.6rem;\n    height: 4.6rem;\n    font-size: 3rem; } }\n\n@media screen and (min-device-width: 768px) {\n  .main-slogan {\n    letter-spacing: 0.1em;\n    font-size: 4rem;\n    font-weight: normal; }\n  .main-mini-desc {\n    top: 40%;\n    font-size: 2rem;\n    font-weight: normal; }\n  .main-signup-button-container {\n    top: 50%; }\n  .main-signup-button {\n    width: 60%;\n    font-size: 2.5rem; }\n  .postit {\n    min-width: 7rem;\n    max-width: 7rem;\n    height: 7rem;\n    font-size: 3em; }\n  .desc-container {\n    color: #333c4e;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    min-height: 60rem; }\n  .left-desc {\n    width: 50%;\n    padding: 2em 5em;\n    line-height: 3em;\n    height: 48.8rem;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center; }\n  .left-desc-title {\n    text-align: left;\n    font-weight: 400;\n    text-decoration: underline;\n    font-size: 2rem;\n    background: #aaaaaa;\n    padding-left: 1em;\n    padding-right: 1em;\n    padding-top: 1em; }\n  .left-desc-content {\n    width: 100%;\n    text-align: left;\n    font-weight: 300;\n    font-size: 1.5rem;\n    background: #aaaaaa;\n    box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n    padding: 0em 2em 2em 2em; }\n  .volunteer {\n    padding: 2em 5em;\n    line-height: 3em;\n    display: inline-block;\n    margin-top: 1em;\n    width: 100%;\n    text-align: left;\n    font-weight: 300;\n    font-size: 1em;\n    background: #aaaaaa;\n    color: black;\n    box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); }\n  .volunteer-title {\n    font-size: 1.5em;\n    border-bottom: solid 0.1em black; }\n  .right-desc {\n    width: 50%;\n    padding: 2em 5em; }\n  .right-desc-img {\n    width: 100%; }\n  .team-desc {\n    display: block;\n    bottom: 0%;\n    width: 100%;\n    background: rgba(0, 0, 0, 0.5);\n    color: #fff;\n    font-weight: 300;\n    text-align: center;\n    height: 4em;\n    line-height: 4em;\n    letter-spacing: 0.2rem; } }\n\n@media screen and (min-device-width: 1024px) {\n  .homepage-main-image {\n    margin: -11rem 0 -10rem 0; }\n  .main-slogan {\n    top: 30%;\n    letter-spacing: 0.1em;\n    font-size: 4rem;\n    font-weight: normal; }\n  .main-mini-desc {\n    font-size: 2rem;\n    font-weight: 300; }\n  .main-signup-button-container {\n    top: 50%; }\n  .main-signup-button {\n    width: 30%;\n    font-size: 2.5rem; }\n  .left-desc {\n    height: 60rem; }\n  .border-line {\n    margin-top: 15rem; }\n  /* typist css */\n  .Typist .Cursor--blinking {\n    opacity: 1;\n    -webkit-animation: blink 1s linear infinite;\n            animation: blink 1s linear infinite; }\n  @-webkit-keyframes blink {\n    0% {\n      opacity: 1; }\n    50% {\n      opacity: 0; }\n    100% {\n      opacity: 1; } }\n  @keyframes blink {\n    0% {\n      opacity: 1; }\n    50% {\n      opacity: 0; }\n    100% {\n      opacity: 1; } } }\n\n.sponsors-list {\n  width: 90%;\n  margin: auto;\n  text-align: center; }\n  .sponsors-list p {\n    font-size: 1.2em; }\n\n.sponsors-title {\n  text-align: left;\n  margin-left: 0.5em; }\n\n.sponsors-title-text {\n  margin-left: 1em;\n  text-align: left;\n  display: block;\n  vertical-align: middle;\n  font-size: 0.7em;\n  font-weight: normal;\n  font-style: italic; }\n\n.sponsor-class {\n  background: #aaaaaa;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  font-weight: bold;\n  margin: 0.5em;\n  display: inline-block;\n  vertical-align: top;\n  width: 32%;\n  height: 32em; }\n  .sponsor-class h3 {\n    text-decoration: underline; }\n\n.about-us-container {\n  width: 85%;\n  margin: auto; }\n  .about-us-container p {\n    background: #ff9b9b;\n    font-size: 1.2em;\n    padding: 0em 1em 1em 1em; }\n  .about-us-container h3 {\n    background: #ff9b9b;\n    margin-bottom: 0em;\n    padding: 0.5em 0em 0.5em 1em; }\n\n.shadow-box {\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); }\n\n.aboutus-title {\n  text-align: center;\n  margin-top: 3em; }\n\n.council-title {\n  text-align: center; }\n\n.booster-council {\n  width: 90%;\n  margin: auto; }\n\n.council-member {\n  text-align: center;\n  font-size: 1.2em;\n  display: inline-block;\n  width: 33.333%;\n  margin: auto;\n  margin-bottom: 0.5em;\n  border: 1px solid black; }\n\n/** Controls\n * Override / Helper / Utility classes\n * class prefix: `ctrl-`\n */\n.ctrl-centered {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n      -ms-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%); }\n", ""]);
+	exports.push([module.id, "/** Settings\n */\n/** Tools\n * Mixins / Functions\n */\n/** Generic\n * Resets\n */\nbody {\n  box-sizing: border-box; }\n\n*, *::before, *::after {\n  position: relative;\n  box-sizing: inherit; }\n\nbody {\n  margin-top: 50px; }\n\n/** Base\n * Element styles (no classes)\n */\n/** Objects\n * Reusable layout patterns\n * class prefix: `o-`\n */\n.o-aspect-ratio {\n  display: block; }\n\n.o-aspect-ratio__inner {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%; }\n\n.o-aspect-ratio--sq {\n  padding: 100% 0 0 0; }\n\n.o-aspect-ratio--2-1 {\n  padding: 50% 0 0 0; }\n\n.o-aspect-ratio--1-2 {\n  padding: 200% 0 0 0; }\n\n/** Components\n * Patterns with a visual design\n * class prefix: `c-`\n */\n.nav-header a {\n  padding: 1em;\n  text-decoration: none;\n  color: black; }\n\n.mission-statement {\n  display: inline-block;\n  margin-left: 7em;\n  font-weight: bold; }\n\n.logo {\n  font-size: 2em;\n  margin-left: 2em; }\n\n.link-style {\n  font-size: 1.2em; }\n\n@media screen and (max-width: 1415px) {\n  .mission-statement {\n    margin-left: 5em; } }\n\n@media screen and (max-width: 1380px) {\n  .mission-statement {\n    margin-left: 3em; } }\n\n@media screen and (max-width: 1345px) {\n  .mission-statement {\n    margin-left: 1em; } }\n\n@media screen and (max-width: 1315px) {\n  .mission-statement {\n    display: none; } }\n\n@media screen and (max-width: 368px) {\n  .link-style {\n    font-size: 1em; }\n  .nav-header a {\n    padding: 0.5em; } }\n\n.homepage-container {\n  overflow: hidden;\n  position: relative;\n  font-family: \"Open Sans\", sans-serif; }\n\n.homepage-main-image-container {\n  position: relative; }\n\n.homepage-main-image {\n  width: 100vw;\n  max-width: 100%; }\n\n.main-slogan {\n  position: absolute;\n  top: 10%;\n  color: #fff;\n  font-weight: bold;\n  text-transform: uppercase;\n  text-align: center;\n  z-index: 999;\n  width: 100%;\n  text-shadow: 1px 1px 10px #000; }\n\n.main-mini-desc {\n  position: absolute;\n  top: 20%;\n  font-style: italic;\n  color: #fff;\n  font-size: 1.3rem;\n  text-align: center;\n  z-index: 999;\n  width: 100%;\n  text-shadow: 1px 1px 10px #000; }\n\ninput:focus {\n  outline: none; }\n\nbutton:focus {\n  outline: none; }\n\n.main-signup-button-container {\n  position: absolute;\n  top: 40%;\n  font-size: 1.8rem;\n  width: 100%;\n  text-align: center; }\n\n.main-signup-button {\n  width: 80%;\n  border-radius: 500px;\n  background-color: red;\n  color: white;\n  font-weight: bold;\n  font-family: \"Permanent Marker\";\n  border: none;\n  padding: 1.5rem 3rem;\n  cursor: pointer; }\n\n.main-signup-button:hover {\n  background-color: black;\n  color: red; }\n\n.postit-view {\n  position: absolute;\n  top: 70%;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  width: 100%;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  font-family: \"Caveat Brush\"; }\n\n.bulb-img {\n  width: 100%;\n  vertical-align: top; }\n\n.postit {\n  box-sizing: border-box;\n  margin: 0.2em;\n  min-width: 3.7rem;\n  max-width: 3.7rem;\n  height: 3.7rem;\n  padding: 0.1em;\n  border: 1px solid #E8E8E8;\n  font-size: 1.8rem;\n  text-align: center;\n  border-bottom-right-radius: 60px 5px;\n  vertical-align: middle; }\n\n.postit:nth-child(even) {\n  -webkit-transform: rotate(4deg);\n  -moz-transform: rotate(4deg); }\n\n.postit:nth-child(odd) {\n  -webkit-transform: rotate(-4deg);\n  -moz-transform: rotate(-4deg); }\n\n.yellow {\n  background: linear-gradient(135deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%); }\n\n.lightyellow {\n  background: linear-gradient(135deg, #ffffa5 81%, #ffffa5 82%, #ffffa5 82%, #ffffc6 100%); }\n\n.pink {\n  background: linear-gradient(135deg, #ff879b 81%, #ff879b 82%, #ffc7d0 100%); }\n\n.green {\n  background: linear-gradient(135deg, #b1ff87 81%, #b1ff87 82%, #dbffc7 100%); }\n\n.blue {\n  background: linear-gradient(135deg, #b3e8ff 81%, #b3e8ff 82%, #b3e8ff 100%); }\n\n.brightgreen {\n  background: linear-gradient(135deg, #b3ffc0 81%, #b3ffc0 82%, #dbffc7 100%); }\n\n.border-line {\n  width: 90%;\n  border-bottom: 2px solid #7e8890;\n  margin: 0 auto;\n  margin-top: 3em; }\n\n.desc-container {\n  color: #333c4e; }\n\n.left-desc {\n  width: 100%;\n  padding: 0.8em;\n  line-height: 1.5em; }\n\n.left-desc-title {\n  width: 100%;\n  text-align: center;\n  font-weight: 300;\n  font-size: 1.5rem;\n  background: #ff9b9b; }\n\n.left-desc-content {\n  width: 100%;\n  text-align: center;\n  font-weight: 300;\n  font-size: 1rem;\n  background: #ff9b9b; }\n\n.volunteer {\n  width: 100%;\n  text-align: center;\n  font-weight: 300;\n  font-size: 1rem;\n  background: #ff9b9b;\n  color: black; }\n\n.right-desc {\n  width: 100%; }\n  .right-desc img {\n    box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); }\n\n.right-desc-img {\n  width: 100%; }\n\n.team-desc {\n  display: none; }\n\n@media screen and (min-device-width: 414px) {\n  .main-slogan {\n    letter-spacing: 0.1em;\n    font-size: 1.9rem;\n    font-weight: normal; }\n  .main-mini-desc {\n    font-size: 1.6rem;\n    font-weight: normal; }\n  .main-signup-button {\n    width: 90%;\n    font-size: 1.9rem; }\n  .postit {\n    min-width: 4.6rem;\n    max-width: 4.6rem;\n    height: 4.6rem;\n    font-size: 3rem; } }\n\n@media screen and (min-device-width: 768px) {\n  .main-slogan {\n    letter-spacing: 0.1em;\n    font-size: 4rem;\n    font-weight: normal; }\n  .main-mini-desc {\n    top: 40%;\n    font-size: 2rem;\n    font-weight: normal; }\n  .main-signup-button-container {\n    top: 50%; }\n  .main-signup-button {\n    width: 60%;\n    font-size: 2.5rem; }\n  .postit {\n    min-width: 7rem;\n    max-width: 7rem;\n    height: 7rem;\n    font-size: 3em; }\n  .desc-container {\n    color: #333c4e;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row; }\n  .left-desc {\n    width: 50%;\n    padding: 2em 5em;\n    line-height: 3em;\n    height: 48.8rem;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center; }\n  .left-desc-title {\n    text-align: left;\n    font-weight: 400;\n    text-decoration: underline;\n    font-size: 2rem;\n    background: #aaaaaa;\n    padding-left: 1em;\n    padding-right: 1em;\n    padding-top: 1em; }\n  .left-desc-content {\n    width: 100%;\n    text-align: left;\n    font-weight: 300;\n    font-size: 1.5rem;\n    background: #aaaaaa;\n    box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n    padding: 0em 2em 2em 2em; }\n  .volunteer {\n    padding: 2em 5em;\n    line-height: 3em;\n    display: inline-block;\n    margin-top: 1em;\n    width: 100%;\n    text-align: left;\n    font-weight: 300;\n    font-size: 1em;\n    background: #aaaaaa;\n    color: black;\n    box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); }\n  .volunteer-title {\n    font-size: 1.5em;\n    border-bottom: solid 0.1em black; }\n  .right-desc {\n    width: 50%;\n    padding: 2em 5em; }\n  .right-desc-img {\n    width: 100%; }\n  .team-desc {\n    display: block;\n    bottom: 0%;\n    width: 100%;\n    background: rgba(0, 0, 0, 0.5);\n    color: #fff;\n    font-weight: 300;\n    text-align: center;\n    height: 4em;\n    line-height: 4em;\n    letter-spacing: 0.2rem; } }\n\n@media screen and (min-device-width: 1024px) {\n  .homepage-main-image {\n    margin: -11rem 0 -10rem 0; }\n  .main-slogan {\n    top: 30%;\n    letter-spacing: 0.1em;\n    font-size: 4rem;\n    font-weight: normal; }\n  .main-mini-desc {\n    font-size: 2rem;\n    font-weight: 300; }\n  .main-signup-button-container {\n    top: 50%; }\n  .main-signup-button {\n    width: 30%;\n    font-size: 2.5rem; }\n  .border-line {\n    margin-top: 15rem; }\n  /* typist css */\n  .Typist .Cursor--blinking {\n    opacity: 1;\n    -webkit-animation: blink 1s linear infinite;\n            animation: blink 1s linear infinite; }\n  @-webkit-keyframes blink {\n    0% {\n      opacity: 1; }\n    50% {\n      opacity: 0; }\n    100% {\n      opacity: 1; } }\n  @keyframes blink {\n    0% {\n      opacity: 1; }\n    50% {\n      opacity: 0; }\n    100% {\n      opacity: 1; } } }\n\n.sponsors-list {\n  width: 90%;\n  margin: auto;\n  text-align: center; }\n  .sponsors-list p {\n    font-size: 1.2em; }\n\n.sponsors-title {\n  text-align: left;\n  margin-left: 0.5em; }\n\n.sponsors-title-text {\n  margin-left: 1em;\n  text-align: left;\n  display: block;\n  vertical-align: middle;\n  font-size: 0.7em;\n  font-weight: normal;\n  font-style: italic; }\n\n.sponsor-class {\n  background: #aaaaaa;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  font-weight: bold;\n  margin: 0.5em;\n  display: inline-block;\n  vertical-align: top;\n  width: 32%;\n  height: 32em; }\n  .sponsor-class h3 {\n    text-decoration: underline; }\n\n.about-us-container {\n  width: 85%;\n  margin: auto; }\n  .about-us-container p {\n    background: #ff9b9b;\n    font-size: 1.2em;\n    padding: 0em 1em 1em 1em; }\n  .about-us-container h3 {\n    background: #ff9b9b;\n    margin-bottom: 0em;\n    padding: 0.5em 0em 0.5em 1em; }\n\n.shadow-box {\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); }\n\n.aboutus-title {\n  text-align: center;\n  margin-top: 3em; }\n\n.council-title {\n  text-align: center; }\n\n.booster-council {\n  width: 90%;\n  margin: auto; }\n\n.council-member {\n  text-align: center;\n  font-size: 1.2em;\n  display: inline-block;\n  width: 33.333%;\n  margin: auto;\n  margin-bottom: 0.5em;\n  border: 1px solid black; }\n\n.aboutus-paragraph {\n  margin: 0; }\n\ninput:focus {\n  outline: none; }\n\nbutton:focus {\n  outline: none; }\n\n.form-container {\n  font-family: \"Open Sans\", sans-serif;\n  width: 90vw;\n  background-color: #fff;\n  margin: 0 auto;\n  margin-top: 4em;\n  padding-bottom: 2em;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  border-bottom-right-radius: 60px 10px;\n  border-bottom-left-radius: 60px 10px; }\n\n.login {\n  min-height: 23em; }\n\n.signup {\n  min-height: 32em; }\n\n.signup-label {\n  text-align: center;\n  margin: 0 auto;\n  display: block;\n  padding-top: 2em; }\n\n.login-label {\n  text-align: center;\n  margin: 0 auto;\n  display: block;\n  padding-top: 2em; }\n\n.signup-input-field {\n  width: 80%;\n  text-align: left;\n  line-height: 2em;\n  height: 2em;\n  display: block;\n  margin: 0 auto;\n  margin-top: 1em;\n  padding: 1em 0.5em 1em 1em;\n  border-radius: 2px;\n  border: 1px solid #dfe0e6; }\n\n.login-input-field {\n  width: 100%;\n  text-align: left;\n  line-height: 2em;\n  display: block;\n  height: 2em;\n  margin-top: 1em;\n  padding: 1em 0.5em 1em 1em;\n  border-radius: 2px;\n  border: 1px solid #dfe0e6; }\n\n.login-input-field:focus {\n  border: 1px solid #4099FF; }\n\n.signup-input-field:focus {\n  border: 1px solid #4099FF; }\n\n.signup-disclaimer-container {\n  font-size: 0.65em;\n  width: 80%;\n  margin: 0 auto; }\n\n.alert-warning {\n  text-align: center;\n  margin: 0 auto;\n  font-weight: bold;\n  width: 80%;\n  line-height: 1em;\n  display: block;\n  margin-top: 1em;\n  border-radius: 2px;\n  border: 1px solid #dfe0e6; }\n\n.login-submit-button {\n  width: 80%;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  border-radius: 500px;\n  display: block;\n  background-color: #2EBD59;\n  border: none;\n  height: 2.5em;\n  margin-top: 0.8em;\n  font-weight: bold; }\n\n.signup-submit-button {\n  width: 80%;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  border-radius: 500px;\n  display: block;\n  background-color: #2EBD59;\n  border: none;\n  height: 2.5em;\n  margin-top: 0.8em;\n  font-weight: bold; }\n\n.login-link-container {\n  width: 80%;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  border-radius: 500px;\n  display: block;\n  background-color: #4099FF;\n  border: none;\n  height: 2.5em;\n  margin-top: 0.8em; }\n\n.signup-link-container {\n  width: 80%;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  border-radius: 500px;\n  display: block;\n  background-color: #4099FF;\n  border: none;\n  height: 2.5em;\n  margin-top: 0.8em; }\n\n@media screen and (min-device-width: 768px) {\n  .form-container {\n    width: 40vw;\n    background-color: #fff;\n    margin: 0 auto;\n    margin-top: 6em;\n    box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); } }\n\n.slideIn-appear {\n  margin-top: -500px; }\n\n.slideIn-appear.slideIn-appear-active {\n  margin-top: 0;\n  transition: margin-top 0.5s ease-in; }\n\n@-webkit-keyframes hvr-wobble-horizontal {\n  16.65% {\n    -webkit-transform: translateX(8px);\n    transform: translateX(8px); }\n  33.3% {\n    -webkit-transform: translateX(-6px);\n    transform: translateX(-6px); }\n  49.95% {\n    -webkit-transform: translateX(4px);\n    transform: translateX(4px); }\n  66.6% {\n    -webkit-transform: translateX(-2px);\n    transform: translateX(-2px); }\n  83.25% {\n    -webkit-transform: translateX(1px);\n    transform: translateX(1px); }\n  100% {\n    -webkit-transform: translateX(0);\n    transform: translateX(0); } }\n\n@keyframes hvr-wobble-horizontal {\n  16.65% {\n    -webkit-transform: translateX(8px);\n    transform: translateX(8px); }\n  33.3% {\n    -webkit-transform: translateX(-6px);\n    transform: translateX(-6px); }\n  49.95% {\n    -webkit-transform: translateX(4px);\n    transform: translateX(4px); }\n  66.6% {\n    -webkit-transform: translateX(-2px);\n    transform: translateX(-2px); }\n  83.25% {\n    -webkit-transform: translateX(1px);\n    transform: translateX(1px); }\n  100% {\n    -webkit-transform: translateX(0);\n    transform: translateX(0); } }\n\n.hvr-wobble-horizontal {\n  vertical-align: middle;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0); }\n\n.hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active, .hvr-wobble-horizontal-active {\n  -webkit-animation-name: hvr-wobble-horizontal;\n  animation-name: hvr-wobble-horizontal;\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-timing-function: ease-in-out;\n  animation-timing-function: ease-in-out;\n  -webkit-animation-iteration-count: 1;\n  animation-iteration-count: 1; }\n\n/** Controls\n * Override / Helper / Utility classes\n * class prefix: `ctrl-`\n */\n.ctrl-centered {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n      -ms-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%); }\n", ""]);
 	
 	// exports
 
@@ -25747,7 +25747,13 @@
 	
 	var _HomepageContainer2 = _interopRequireDefault(_HomepageContainer);
 	
+	var _EventContainer = __webpack_require__(/*! ./containers/EventContainer */ 463);
+	
+	var _EventContainer2 = _interopRequireDefault(_EventContainer);
+	
 	var _user = __webpack_require__(/*! ./actions/user */ 293);
+	
+	var _event = __webpack_require__(/*! ./actions/event */ 462);
 	
 	var _Index = __webpack_require__(/*! ./components/Index */ 319);
 	
@@ -25761,6 +25767,10 @@
 	
 	var _AboutUs2 = _interopRequireDefault(_AboutUs);
 	
+	var _Signup = __webpack_require__(/*! ./components/Signup */ 461);
+	
+	var _Signup2 = _interopRequireDefault(_Signup);
+	
 	var _Events = __webpack_require__(/*! ./components/Events */ 460);
 	
 	var _Events2 = _interopRequireDefault(_Events);
@@ -25768,28 +25778,33 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	//onEnters
+	// function indexEnter() {
+	//   store.dispatch(checkLoginStatus());
+	// }
 	
+	function eventsOnEnter(nextRouterState) {
+	  _store2.default.dispatch((0, _event.getAllEvents)());
+	}
 	
 	//components
 	
 	
-	//containers
-	function indexEnter() {
-	  _store2.default.dispatch((0, _user.checkLoginStatus)());
-	}
-	
 	//action-creators
+	
+	
+	//containers
 	function Routes() {
 	  return _react2.default.createElement(
 	    _reactRouter.Router,
 	    { history: _reactRouter.browserHistory },
 	    _react2.default.createElement(
 	      _reactRouter.Route,
-	      { path: '/', component: _Index2.default, onEnter: indexEnter },
+	      { path: '/', component: _Index2.default },
 	      _react2.default.createElement(_reactRouter.IndexRoute, { component: _HomepageContainer2.default }),
 	      _react2.default.createElement(_reactRouter.Route, { path: 'sponsers', component: _Sponsers2.default }),
 	      _react2.default.createElement(_reactRouter.Route, { path: 'aboutus', component: _AboutUs2.default }),
-	      _react2.default.createElement(_reactRouter.Route, { path: 'events', component: _Events2.default })
+	      _react2.default.createElement(_reactRouter.Route, { path: 'events', component: _EventContainer2.default }),
+	      _react2.default.createElement(_reactRouter.Route, { path: 'signup', component: _Signup2.default })
 	    )
 	  );
 	}
@@ -26786,14 +26801,20 @@
 	
 	var _navbarReducer2 = _interopRequireDefault(_navbarReducer);
 	
+	var _eventReducer = __webpack_require__(/*! ./eventReducer */ 477);
+	
+	var _eventReducer2 = _interopRequireDefault(_eventReducer);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	// import userReducer from './userReducer';
 	var combinedReducer = exports.combinedReducer = (0, _redux.combineReducers)({
 	  // userReducer,
-	  nav: _navbarReducer2.default
+	  nav: _navbarReducer2.default,
+	  event: _eventReducer2.default
 	
 	});
-	// import userReducer from './userReducer';
+	
 	function rootReducer(store, action) {
 	  if (action.type === _constants.CLEAR_STORE) return combinedReducer();
 	
@@ -26814,6 +26835,9 @@
 	});
 	/* SHARED CONSTANTS */
 	var TOGGLE_CLICK = exports.TOGGLE_CLICK = 'TOGGLE_CLICK';
+	
+	var RECEIVE_EVENTS = exports.RECEIVE_EVENTS = 'RECEIVE_EVENTS';
+	var ADD_NEW_EVENT = exports.ADD_NEW_EVENT = 'ADD_NEW_EVENT';
 
 /***/ },
 /* 236 */
@@ -33721,7 +33745,7 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.checkLoginStatus = exports.searchUsername = exports.logoutUser = exports.loginUser = exports.createUser = exports.receiveUserQuery = exports.removeLoginUser = exports.setLoginUser = undefined;
+	exports.searchUsername = exports.logoutUser = exports.loginUser = exports.createUser = exports.receiveUserQuery = exports.removeLoginUser = exports.setLoginUser = undefined;
 	
 	var _axios = __webpack_require__(/*! axios */ 294);
 	
@@ -33799,17 +33823,14 @@
 	};
 	
 	/* check login state by calling server and checking user sessions */
-	var checkLoginStatus = exports.checkLoginStatus = function checkLoginStatus() {
-	  return function (dispatch) {
-	    return _axios2.default.get('/api/auth/').then(function (res) {
-	      return res;
-	    }).then(function (res) {
-	      return dispatch(setLoginUser(res.data));
-	    }).catch(function (err) {
-	      return console.error(err);
-	    });
-	  };
-	};
+	// export const checkLoginStatus = () => dispatch => {
+	//   return axios.get('/api/auth/')
+	//     .then(res => {
+	//       return res;
+	//     })
+	//     .then(res => dispatch(setLoginUser(res.data)))
+	//     .catch(err => console.error(err));
+	// };
 
 /***/ },
 /* 294 */
@@ -42541,48 +42562,28 @@
 	      { className: 'nav-header' },
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { href: '/' },
-	        _react2.default.createElement(
-	          'a',
-	          { className: 'logo' },
-	          'Paw Paw Boosters'
-	        )
+	        { href: '/', className: 'logo' },
+	        'Paw Paw Boosters'
 	      ),
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { to: 'http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1', target: '_blank' },
-	        _react2.default.createElement(
-	          'a',
-	          { className: 'link-style' },
-	          'SignUp'
-	        )
+	        { to: '/signup', className: 'link-style' },
+	        'SignUp'
 	      ),
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { href: '/events' },
-	        _react2.default.createElement(
-	          'a',
-	          { className: 'link-style' },
-	          'Events'
-	        )
+	        { href: '/events', className: 'link-style' },
+	        'Events'
 	      ),
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { to: '/assets/pawpaw_bilaws.pdf', target: '_blank' },
-	        _react2.default.createElement(
-	          'a',
-	          { className: 'link-style' },
-	          'Bi-laws'
-	        )
+	        { to: '/assets/pawpaw_bilaws.pdf', target: '_blank', className: 'link-style' },
+	        'Bi-laws'
 	      ),
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { href: '/aboutus' },
-	        _react2.default.createElement(
-	          'a',
-	          { className: 'link-style' },
-	          'About Us'
-	        )
+	        { href: '/aboutus', className: 'link-style' },
+	        'About Us'
 	      )
 	    )
 	  );
@@ -43333,7 +43334,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "p",
-	          null,
+	          { className: "aboutus-paragraphs" },
 	          "A non-profit, 501c3 volunteer organization, made up of parents, coaches and community members that work to compliment the high school athletic department. The Booster Club works to enhance the facilities, equipment and opportunities for our student athletes and coaches."
 	        )
 	      ),
@@ -43347,7 +43348,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "p",
-	          null,
+	          { className: "aboutus-paragraphs" },
 	          "The following are a few examples of what the Booster Club provides funds for: coaching clinics, team camps, upgrades to sports facilities and possible needed equipment and much more!"
 	        )
 	      ),
@@ -43361,7 +43362,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "p",
-	          null,
+	          { className: "aboutus-paragraphs" },
 	          "We need your help! We are in need of more parent involvement. A parent\u2019s level of involvement is completely up to you! Your willingness to become involved with the Booster Club would be greatly appreciated no matter how big or small. We are looking for parents to assist with concession stands and get involved with fund raising possibilities."
 	        )
 	      ),
@@ -43375,7 +43376,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "p",
-	          null,
+	          { className: "aboutus-paragraphs" },
 	          "Participating in the Boosters is a great way to volunteer your time to provide Paw Paw athletes, coaches and sports programs with additional opportunities that they may not be able to experience otherwise! It\u2019s also a great way to meet more of the parents your kids go to school with and have some fun and laughs at the same time! Another perk for getting involved with the Boosters, if you work a minimum of 10 athletic events, you can receive a free sports pass the following year. A person receiving a complimentary pass can apply $55 (cost of a single pass) towards the purchase of a family pass."
 	        )
 	      ),
@@ -43389,7 +43390,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "p",
-	          null,
+	          { className: "aboutus-paragraphs" },
 	          "Meetings are held on the first Monday of each month unless it falls on a holiday, in the high school teacher\u2019s lounge @ 6:30. Meeting information is typically located in the Paw Paw High School daily announcements. The following is contact information for the officers on the Booster Board. Feel free to contact any of them if you have additional questions or if you would like more information about getting involved."
 	        )
 	      )
@@ -43548,88 +43549,135 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var myEventsList = [{
+	  'id': 1,
 	  'date': '9/16/17',
 	  'time': '5:00pm',
-	  'eventTitle': 'Homecomming'
+	  'title': 'Homecomming'
 	}, {
+	  'id': 2,
 	  'date': '9/17/17',
 	  'time': '7:00pm',
-	  'eventTitle': 'Homecomming2'
+	  'title': 'Homecomming2'
 	}];
-	
+	function add(a, b) {
+	  return Number(a) + Number(b);
+	}
+	function dateConverter(dateString) {
+	  return dateString.split('-').reduce(add, 0);
+	}
+	function timeConverter(dateString) {
+	  return Number(dateString.split(':')[0]);
+	}
 	var Events = function Events(props) {
+	
+	  var sortedEventArray = [];
+	  if (props.events.length) {
+	    props.events.sort(function (a, b) {
+	      return parseFloat([dateConverter(a['date']), timeConverter(a['time'])].join('.')) - parseFloat([dateConverter(b['date']), timeConverter(b['time'])].join('.'));
+	    });
+	  };
 	  return _react2.default.createElement(
 	    'div',
-	    { className: 'event-container' },
+	    null,
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'event-list' },
-	      myEventsList.length ? myEventsList.map(function (event) {
+	      props.events.length ? props.events.map(function (event) {
 	        return _react2.default.createElement(
 	          'div',
-	          null,
+	          { key: event.id },
 	          event.date,
 	          ' ',
 	          event.time,
 	          ' ',
-	          event.eventTitle
+	          event.title
 	        );
 	      }) : null
 	    ),
 	    _react2.default.createElement(
 	      'div',
-	      { className: 'event-submit-form' },
+	      { className: 'form-container ' + props.type + ' ' + props.wobbleError },
 	      _react2.default.createElement(
-	        'form',
-	        { className: 'form', onSubmit: function onSubmit(e) {
-	            props.submitForm(e);
-	          } },
+	        'div',
+	        { className: 'event-container' },
 	        _react2.default.createElement(
 	          'div',
-	          { className: '' },
+	          { className: 'event-submit-form' },
 	          _react2.default.createElement(
-	            'label',
-	            { className: 'signup-label' },
-	            ' Create event here! '
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'form-group' },
-	          _react2.default.createElement('input', { type: 'date', name: 'firstName', placeholder: 'Date',
-	            className: 'input signup-input-field',
-	            id: 'signup-firstname-input-field',
-	            onChange: function onChange(e) {
-	              props.handleInput(e);
-	            },
-	            required: true })
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'form-group' },
-	          _react2.default.createElement('input', { type: 'time', name: 'firstName', placeholder: 'Time',
-	            className: 'input signup-input-field',
-	            id: 'signup-firstname-input-field',
-	            onChange: function onChange(e) {
-	              props.handleInput(e);
-	            },
-	            required: true })
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'form-group' },
-	          _react2.default.createElement('input', { type: 'text', name: 'lastName', placeholder: 'Title',
-	            className: 'signup-input-field',
-	            id: 'signup-lastname-input-field',
-	            onChange: function onChange(e) {
-	              props.handleInput(e);
-	            },
-	            required: true })
-	        ),
-	        _react2.default.createElement(
-	          'button',
-	          { className: 'signup-submit-button', type: 'submit' },
-	          'Create Event'
+	            'form',
+	            { className: 'form', onSubmit: function onSubmit(e) {
+	                props.submitForm(e);
+	              } },
+	            _react2.default.createElement(
+	              'div',
+	              { className: '' },
+	              _react2.default.createElement(
+	                'label',
+	                { className: 'signup-label' },
+	                ' Create event here! '
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'form-group' },
+	              _react2.default.createElement('input', { type: 'date', name: 'date', placeholder: 'Date',
+	                className: 'input signup-input-field',
+	                id: 'signup-firstname-input-field',
+	                onChange: function onChange(e) {
+	                  props.handleInput(e);
+	                },
+	                required: true })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'form-group' },
+	              _react2.default.createElement('input', { type: 'text', name: 'time', placeholder: 'Time',
+	                className: 'input signup-input-field',
+	                id: 'signup-firstname-input-field',
+	                onChange: function onChange(e) {
+	                  props.handleInput(e);
+	                },
+	                required: true })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'form-group' },
+	              _react2.default.createElement('input', { type: 'text', name: 'title', placeholder: 'Title',
+	                className: 'signup-input-field',
+	                id: 'signup-lastname-input-field',
+	                onChange: function onChange(e) {
+	                  props.handleInput(e);
+	                },
+	                required: true })
+	            ),
+	            _react2.default.createElement(
+	              'button',
+	              { className: 'signup-submit-button', type: 'submit' },
+	              'Create Event'
+	            )
+	          ),
+	          props.events.length ? props.events.map(function (event) {
+	            return _react2.default.createElement(
+	              'div',
+	              null,
+	              _react2.default.createElement(
+	                'div',
+	                { key: event.id },
+	                event.date,
+	                ' ',
+	                event.time,
+	                ' ',
+	                event.title,
+	                _react2.default.createElement(
+	                  'button',
+	                  { value: event.id, onClick: function onClick(e) {
+	                      return props.deleteEvent(e.target.value);
+	                    } },
+	                  'X'
+	                )
+	              )
+	            );
+	          }) : null
 	        )
 	      )
 	    )
@@ -43637,6 +43685,1434 @@
 	};
 	
 	exports.default = Events;
+
+/***/ },
+/* 461 */
+/*!*************************************!*\
+  !*** ./client/components/Signup.js ***!
+  \*************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 13);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 237);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	// import NavbarContainer from '../containers/NavbarContainer';
+	
+	var Signup = function Signup(props) {
+	  return _react2.default.createElement(
+	    'div',
+	    null,
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'signup-list' },
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'signup-football' },
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: 'http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1', target: '_blank' },
+	          _react2.default.createElement(
+	            'a',
+	            { className: 'link-style' },
+	            'Football'
+	          )
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'signup-basketball' },
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: 'http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1', target: '_blank' },
+	          _react2.default.createElement(
+	            'a',
+	            { className: 'link-style' },
+	            'Basketball'
+	          )
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'signup-baseball' },
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: 'http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1', target: '_blank' },
+	          _react2.default.createElement(
+	            'a',
+	            { className: 'link-style' },
+	            'Baseball'
+	          )
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Signup;
+
+/***/ },
+/* 462 */
+/*!*********************************!*\
+  !*** ./client/actions/event.js ***!
+  \*********************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.deleteEvent = exports.createEvent = exports.getAllEvents = exports.addNewEvent = exports.receiveAllEvents = undefined;
+	
+	var _axios = __webpack_require__(/*! axios */ 294);
+	
+	var _axios2 = _interopRequireDefault(_axios);
+	
+	var _constants = __webpack_require__(/*! ../constants */ 235);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var receiveAllEvents = exports.receiveAllEvents = function receiveAllEvents(events) {
+	  return {
+	    type: _constants.RECEIVE_EVENTS,
+	    events: events
+	  };
+	};
+	
+	var addNewEvent = exports.addNewEvent = function addNewEvent(event) {
+	  return {
+	    type: _constants.ADD_NEW_EVENT,
+	    event: event
+	  };
+	};
+	
+	var getAllEvents = exports.getAllEvents = function getAllEvents() {
+	  return function (dispatch) {
+	    return _axios2.default.get('/api/event').then(function (res) {
+	      return res.data;
+	    }).then(function (events) {
+	      // console.log(events.events[0]);
+	      dispatch(receiveAllEvents(events.events[0]));
+	    });
+	  };
+	};
+	
+	var createEvent = exports.createEvent = function createEvent(date, time, title, description) {
+	  console.log({ date: date, time: time, title: title, description: description });
+	  return function (dispatch) {
+	    return _axios2.default.post('/api/event', { date: date, time: time, title: title, description: description }).then(function (res) {
+	      return res.data;
+	    }).then(function (event) {
+	      dispatch(addNewEvent(event));
+	    });
+	  };
+	};
+	
+	var deleteEvent = exports.deleteEvent = function deleteEvent(eventId) {
+	  return function (dispatch) {
+	    return _axios2.default.delete('/api/event/' + eventId).then(function (res) {
+	      return res.data;
+	    }).then(function (event) {
+	      dispatch(getAllEvents());
+	    });
+	  };
+	};
+
+/***/ },
+/* 463 */
+/*!*********************************************!*\
+  !*** ./client/containers/EventContainer.js ***!
+  \*********************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.EventContainer = undefined;
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 13);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _axios = __webpack_require__(/*! axios */ 294);
+	
+	var _axios2 = _interopRequireDefault(_axios);
+	
+	var _reactRedux = __webpack_require__(/*! react-redux */ 10);
+	
+	var _Events = __webpack_require__(/*! ../components/Events */ 460);
+	
+	var _Events2 = _interopRequireDefault(_Events);
+	
+	var _event = __webpack_require__(/*! ../actions/event */ 462);
+	
+	var _isEmpty = __webpack_require__(/*! lodash/isEmpty */ 445);
+	
+	var _isEmpty2 = _interopRequireDefault(_isEmpty);
+	
+	var _reactAddonsCssTransitionGroup = __webpack_require__(/*! react-addons-css-transition-group */ 464);
+	
+	var _reactAddonsCssTransitionGroup2 = _interopRequireDefault(_reactAddonsCssTransitionGroup);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var EventContainer = exports.EventContainer = function (_Component) {
+	  _inherits(EventContainer, _Component);
+	
+	  function EventContainer(props) {
+	    _classCallCheck(this, EventContainer);
+	
+	    var _this = _possibleConstructorReturn(this, (EventContainer.__proto__ || Object.getPrototypeOf(EventContainer)).call(this, props));
+	
+	    _this.state = {
+	      date: '',
+	      time: '',
+	      title: '',
+	      description: '',
+	      dirty: false,
+	      wobbleError: ''
+	    };
+	
+	    _this.submitForm = _this.submitForm.bind(_this);
+	    _this.handleInput = _this.handleInput.bind(_this);
+	    _this.wobbler = _this.wobbler.bind(_this);
+	    return _this;
+	  }
+	
+	  _createClass(EventContainer, [{
+	    key: 'componentWillReceiveProps',
+	    value: function componentWillReceiveProps(props, nextProps) {
+	      if (!(0, _isEmpty2.default)(props.loggedInUser)) {
+	        this.props.router.push('/boards');
+	      }
+	    }
+	  }, {
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      this.props.onEventEnter();
+	    }
+	  }, {
+	    key: 'submitForm',
+	    value: function submitForm(e) {
+	      e.preventDefault();
+	      this.props.creatingEvent(this.state.date, this.state.time, this.state.title, this.state.description);
+	    }
+	  }, {
+	    key: 'handleInput',
+	    value: function handleInput(e) {
+	      this.setState(_defineProperty({}, e.target.name, e.target.value));
+	    }
+	  }, {
+	    key: 'wobbler',
+	    value: function wobbler() {
+	      var _this2 = this;
+	
+	      this.setState({ wobbleError: 'hvr-wobble-horizontal' });
+	
+	      setTimeout(function () {
+	        _this2.setState({ wobbleError: '' });
+	      }, 1000);
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var dirty = this.state.dirty;
+	      var warning = '';
+	
+	      // if (dirty && this.state.type === 'login') {
+	      //   warning = 'Password or Email is Invalid';
+	      // } else if (dirty && this.state.type === 'signup') {
+	      //   warning = 'Username or Email is Unavailable';
+	      // }
+	
+	      return _react2.default.createElement(
+	        _reactAddonsCssTransitionGroup2.default,
+	        {
+	          transitionName: 'slideIn',
+	          transitionAppear: true,
+	          transitionAppearTimeout: 500,
+	          transitionEnterTimeout: 500,
+	          transitionLeaveTimeout: 500 },
+	        _react2.default.createElement(
+	          'div',
+	          null,
+	          _react2.default.createElement(_Events2.default, { submitForm: this.submitForm,
+	            handleInput: this.handleInput,
+	            warning: warning,
+	            wobbler: this.wobbler,
+	            wobbleError: this.state.wobbleError,
+	            events: this.props.events,
+	            type: this.state.type,
+	            deleteEvent: this.props.deleteEvent })
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return EventContainer;
+	}(_react.Component);
+	
+	var mapStateToProps = function mapStateToProps(state) {
+	  return {
+	    events: state.event.events
+	  };
+	};
+	
+	var mapDispatchToProps = function mapDispatchToProps(dispatch) {
+	  return {
+	    creatingEvent: function creatingEvent(date, time, title, description) {
+	      dispatch((0, _event.createEvent)(date, time, title, description));
+	    },
+	    onEventEnter: function onEventEnter() {
+	      dispatch((0, _event.getAllEvents)({}));
+	    },
+	    deleteEvent: function deleteEvent(eventId) {
+	      dispatch((0, _event.deleteEvent)(eventId));
+	    }
+	  };
+	};
+	
+	exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(EventContainer);
+
+/***/ },
+/* 464 */
+/*!******************************************************!*\
+  !*** ./~/react-addons-css-transition-group/index.js ***!
+  \******************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Copyright 2013-present, Facebook, Inc.
+	 * All rights reserved.
+	 *
+	 * This source code is licensed under the BSD-style license found in the
+	 * LICENSE file in the root directory of this source tree. An additional grant
+	 * of patent rights can be found in the PATENTS file in the same directory.
+	 */
+	
+	'use strict';
+	
+	module.exports = __webpack_require__(/*! react-transition-group/CSSTransitionGroup */ 465);
+
+
+/***/ },
+/* 465 */
+/*!********************************************************!*\
+  !*** ./~/react-transition-group/CSSTransitionGroup.js ***!
+  \********************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
+	
+	exports.__esModule = true;
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _react = __webpack_require__(/*! react */ 13);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(/*! prop-types */ 48);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	var _TransitionGroup = __webpack_require__(/*! ./TransitionGroup */ 466);
+	
+	var _TransitionGroup2 = _interopRequireDefault(_TransitionGroup);
+	
+	var _CSSTransitionGroupChild = __webpack_require__(/*! ./CSSTransitionGroupChild */ 469);
+	
+	var _CSSTransitionGroupChild2 = _interopRequireDefault(_CSSTransitionGroupChild);
+	
+	var _PropTypes = __webpack_require__(/*! ./utils/PropTypes */ 476);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var propTypes = {
+	  transitionName: _PropTypes.nameShape.isRequired,
+	
+	  transitionAppear: _propTypes2.default.bool,
+	  transitionEnter: _propTypes2.default.bool,
+	  transitionLeave: _propTypes2.default.bool,
+	  transitionAppearTimeout: (0, _PropTypes.transitionTimeout)('Appear'),
+	  transitionEnterTimeout: (0, _PropTypes.transitionTimeout)('Enter'),
+	  transitionLeaveTimeout: (0, _PropTypes.transitionTimeout)('Leave')
+	};
+	
+	var defaultProps = {
+	  transitionAppear: false,
+	  transitionEnter: true,
+	  transitionLeave: true
+	};
+	
+	var CSSTransitionGroup = function (_React$Component) {
+	  _inherits(CSSTransitionGroup, _React$Component);
+	
+	  function CSSTransitionGroup() {
+	    var _temp, _this, _ret;
+	
+	    _classCallCheck(this, CSSTransitionGroup);
+	
+	    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+	      args[_key] = arguments[_key];
+	    }
+	
+	    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this._wrapChild = function (child) {
+	      return _react2.default.createElement(_CSSTransitionGroupChild2.default, {
+	        name: _this.props.transitionName,
+	        appear: _this.props.transitionAppear,
+	        enter: _this.props.transitionEnter,
+	        leave: _this.props.transitionLeave,
+	        appearTimeout: _this.props.transitionAppearTimeout,
+	        enterTimeout: _this.props.transitionEnterTimeout,
+	        leaveTimeout: _this.props.transitionLeaveTimeout
+	      }, child);
+	    }, _temp), _possibleConstructorReturn(_this, _ret);
+	  }
+	
+	  // We need to provide this childFactory so that
+	  // ReactCSSTransitionGroupChild can receive updates to name, enter, and
+	  // leave while it is leaving.
+	
+	
+	  CSSTransitionGroup.prototype.render = function render() {
+	    return _react2.default.createElement(_TransitionGroup2.default, _extends({}, this.props, { childFactory: this._wrapChild }));
+	  };
+	
+	  return CSSTransitionGroup;
+	}(_react2.default.Component);
+	
+	CSSTransitionGroup.displayName = 'CSSTransitionGroup';
+	
+	
+	CSSTransitionGroup.propTypes = process.env.NODE_ENV !== "production" ? propTypes : {};
+	CSSTransitionGroup.defaultProps = defaultProps;
+	
+	exports.default = CSSTransitionGroup;
+	module.exports = exports['default'];
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./~/process/browser.js */ 12)))
+
+/***/ },
+/* 466 */
+/*!*****************************************************!*\
+  !*** ./~/react-transition-group/TransitionGroup.js ***!
+  \*****************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
+	
+	exports.__esModule = true;
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _chainFunction = __webpack_require__(/*! chain-function */ 467);
+	
+	var _chainFunction2 = _interopRequireDefault(_chainFunction);
+	
+	var _react = __webpack_require__(/*! react */ 13);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(/*! prop-types */ 48);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	var _warning = __webpack_require__(/*! warning */ 245);
+	
+	var _warning2 = _interopRequireDefault(_warning);
+	
+	var _ChildMapping = __webpack_require__(/*! ./utils/ChildMapping */ 468);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var propTypes = {
+	  component: _propTypes2.default.any,
+	  childFactory: _propTypes2.default.func,
+	  children: _propTypes2.default.node
+	};
+	
+	var defaultProps = {
+	  component: 'span',
+	  childFactory: function childFactory(child) {
+	    return child;
+	  }
+	};
+	
+	var TransitionGroup = function (_React$Component) {
+	  _inherits(TransitionGroup, _React$Component);
+	
+	  function TransitionGroup(props, context) {
+	    _classCallCheck(this, TransitionGroup);
+	
+	    var _this = _possibleConstructorReturn(this, _React$Component.call(this, props, context));
+	
+	    _this.performAppear = function (key, component) {
+	      _this.currentlyTransitioningKeys[key] = true;
+	
+	      if (component.componentWillAppear) {
+	        component.componentWillAppear(_this._handleDoneAppearing.bind(_this, key, component));
+	      } else {
+	        _this._handleDoneAppearing(key, component);
+	      }
+	    };
+	
+	    _this._handleDoneAppearing = function (key, component) {
+	      if (component.componentDidAppear) {
+	        component.componentDidAppear();
+	      }
+	
+	      delete _this.currentlyTransitioningKeys[key];
+	
+	      var currentChildMapping = (0, _ChildMapping.getChildMapping)(_this.props.children);
+	
+	      if (!currentChildMapping || !currentChildMapping.hasOwnProperty(key)) {
+	        // This was removed before it had fully appeared. Remove it.
+	        _this.performLeave(key, component);
+	      }
+	    };
+	
+	    _this.performEnter = function (key, component) {
+	      _this.currentlyTransitioningKeys[key] = true;
+	
+	      if (component.componentWillEnter) {
+	        component.componentWillEnter(_this._handleDoneEntering.bind(_this, key, component));
+	      } else {
+	        _this._handleDoneEntering(key, component);
+	      }
+	    };
+	
+	    _this._handleDoneEntering = function (key, component) {
+	      if (component.componentDidEnter) {
+	        component.componentDidEnter();
+	      }
+	
+	      delete _this.currentlyTransitioningKeys[key];
+	
+	      var currentChildMapping = (0, _ChildMapping.getChildMapping)(_this.props.children);
+	
+	      if (!currentChildMapping || !currentChildMapping.hasOwnProperty(key)) {
+	        // This was removed before it had fully entered. Remove it.
+	        _this.performLeave(key, component);
+	      }
+	    };
+	
+	    _this.performLeave = function (key, component) {
+	      _this.currentlyTransitioningKeys[key] = true;
+	
+	      if (component.componentWillLeave) {
+	        component.componentWillLeave(_this._handleDoneLeaving.bind(_this, key, component));
+	      } else {
+	        // Note that this is somewhat dangerous b/c it calls setState()
+	        // again, effectively mutating the component before all the work
+	        // is done.
+	        _this._handleDoneLeaving(key, component);
+	      }
+	    };
+	
+	    _this._handleDoneLeaving = function (key, component) {
+	      if (component.componentDidLeave) {
+	        component.componentDidLeave();
+	      }
+	
+	      delete _this.currentlyTransitioningKeys[key];
+	
+	      var currentChildMapping = (0, _ChildMapping.getChildMapping)(_this.props.children);
+	
+	      if (currentChildMapping && currentChildMapping.hasOwnProperty(key)) {
+	        // This entered again before it fully left. Add it again.
+	        _this.keysToEnter.push(key);
+	      } else {
+	        _this.setState(function (state) {
+	          var newChildren = _extends({}, state.children);
+	          delete newChildren[key];
+	          return { children: newChildren };
+	        });
+	      }
+	    };
+	
+	    _this.childRefs = Object.create(null);
+	
+	    _this.state = {
+	      children: (0, _ChildMapping.getChildMapping)(props.children)
+	    };
+	    return _this;
+	  }
+	
+	  TransitionGroup.prototype.componentWillMount = function componentWillMount() {
+	    this.currentlyTransitioningKeys = {};
+	    this.keysToEnter = [];
+	    this.keysToLeave = [];
+	  };
+	
+	  TransitionGroup.prototype.componentDidMount = function componentDidMount() {
+	    var initialChildMapping = this.state.children;
+	    for (var key in initialChildMapping) {
+	      if (initialChildMapping[key]) {
+	        this.performAppear(key, this.childRefs[key]);
+	      }
+	    }
+	  };
+	
+	  TransitionGroup.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+	    var nextChildMapping = (0, _ChildMapping.getChildMapping)(nextProps.children);
+	    var prevChildMapping = this.state.children;
+	
+	    this.setState({
+	      children: (0, _ChildMapping.mergeChildMappings)(prevChildMapping, nextChildMapping)
+	    });
+	
+	    for (var key in nextChildMapping) {
+	      var hasPrev = prevChildMapping && prevChildMapping.hasOwnProperty(key);
+	      if (nextChildMapping[key] && !hasPrev && !this.currentlyTransitioningKeys[key]) {
+	        this.keysToEnter.push(key);
+	      }
+	    }
+	
+	    for (var _key in prevChildMapping) {
+	      var hasNext = nextChildMapping && nextChildMapping.hasOwnProperty(_key);
+	      if (prevChildMapping[_key] && !hasNext && !this.currentlyTransitioningKeys[_key]) {
+	        this.keysToLeave.push(_key);
+	      }
+	    }
+	
+	    // If we want to someday check for reordering, we could do it here.
+	  };
+	
+	  TransitionGroup.prototype.componentDidUpdate = function componentDidUpdate() {
+	    var _this2 = this;
+	
+	    var keysToEnter = this.keysToEnter;
+	    this.keysToEnter = [];
+	    keysToEnter.forEach(function (key) {
+	      return _this2.performEnter(key, _this2.childRefs[key]);
+	    });
+	
+	    var keysToLeave = this.keysToLeave;
+	    this.keysToLeave = [];
+	    keysToLeave.forEach(function (key) {
+	      return _this2.performLeave(key, _this2.childRefs[key]);
+	    });
+	  };
+	
+	  TransitionGroup.prototype.render = function render() {
+	    var _this3 = this;
+	
+	    // TODO: we could get rid of the need for the wrapper node
+	    // by cloning a single child
+	    var childrenToRender = [];
+	
+	    var _loop = function _loop(key) {
+	      var child = _this3.state.children[key];
+	      if (child) {
+	        var isCallbackRef = typeof child.ref !== 'string';
+	        var factoryChild = _this3.props.childFactory(child);
+	        var ref = function ref(r) {
+	          _this3.childRefs[key] = r;
+	        };
+	
+	        process.env.NODE_ENV !== 'production' ? (0, _warning2.default)(isCallbackRef, 'string refs are not supported on children of TransitionGroup and will be ignored. ' + 'Please use a callback ref instead: https://facebook.github.io/react/docs/refs-and-the-dom.html#the-ref-callback-attribute') : void 0;
+	
+	        // Always chaining the refs leads to problems when the childFactory
+	        // wraps the child. The child ref callback gets called twice with the
+	        // wrapper and the child. So we only need to chain the ref if the
+	        // factoryChild is not different from child.
+	        if (factoryChild === child && isCallbackRef) {
+	          ref = (0, _chainFunction2.default)(child.ref, ref);
+	        }
+	
+	        // You may need to apply reactive updates to a child as it is leaving.
+	        // The normal React way to do it won't work since the child will have
+	        // already been removed. In case you need this behavior you can provide
+	        // a childFactory function to wrap every child, even the ones that are
+	        // leaving.
+	        childrenToRender.push(_react2.default.cloneElement(factoryChild, {
+	          key: key,
+	          ref: ref
+	        }));
+	      }
+	    };
+	
+	    for (var key in this.state.children) {
+	      _loop(key);
+	    }
+	
+	    // Do not forward TransitionGroup props to primitive DOM nodes
+	    var props = _extends({}, this.props);
+	    delete props.transitionLeave;
+	    delete props.transitionName;
+	    delete props.transitionAppear;
+	    delete props.transitionEnter;
+	    delete props.childFactory;
+	    delete props.transitionLeaveTimeout;
+	    delete props.transitionEnterTimeout;
+	    delete props.transitionAppearTimeout;
+	    delete props.component;
+	
+	    return _react2.default.createElement(this.props.component, props, childrenToRender);
+	  };
+	
+	  return TransitionGroup;
+	}(_react2.default.Component);
+	
+	TransitionGroup.displayName = 'TransitionGroup';
+	
+	
+	TransitionGroup.propTypes = process.env.NODE_ENV !== "production" ? propTypes : {};
+	TransitionGroup.defaultProps = defaultProps;
+	
+	exports.default = TransitionGroup;
+	module.exports = exports['default'];
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./~/process/browser.js */ 12)))
+
+/***/ },
+/* 467 */
+/*!***********************************!*\
+  !*** ./~/chain-function/index.js ***!
+  \***********************************/
+/***/ function(module, exports) {
+
+	
+	module.exports = function chain(){
+	  var len = arguments.length
+	  var args = [];
+	
+	  for (var i = 0; i < len; i++)
+	    args[i] = arguments[i]
+	
+	  args = args.filter(function(fn){ return fn != null })
+	
+	  if (args.length === 0) return undefined
+	  if (args.length === 1) return args[0]
+	
+	  return args.reduce(function(current, next){
+	    return function chainedFunction() {
+	      current.apply(this, arguments);
+	      next.apply(this, arguments);
+	    };
+	  })
+	}
+
+
+/***/ },
+/* 468 */
+/*!********************************************************!*\
+  !*** ./~/react-transition-group/utils/ChildMapping.js ***!
+  \********************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	exports.__esModule = true;
+	exports.getChildMapping = getChildMapping;
+	exports.mergeChildMappings = mergeChildMappings;
+	
+	var _react = __webpack_require__(/*! react */ 13);
+	
+	/**
+	 * Given `this.props.children`, return an object mapping key to child.
+	 *
+	 * @param {*} children `this.props.children`
+	 * @return {object} Mapping of key to child
+	 */
+	function getChildMapping(children) {
+	  if (!children) {
+	    return children;
+	  }
+	  var result = {};
+	  _react.Children.map(children, function (child) {
+	    return child;
+	  }).forEach(function (child) {
+	    result[child.key] = child;
+	  });
+	  return result;
+	}
+	
+	/**
+	 * When you're adding or removing children some may be added or removed in the
+	 * same render pass. We want to show *both* since we want to simultaneously
+	 * animate elements in and out. This function takes a previous set of keys
+	 * and a new set of keys and merges them with its best guess of the correct
+	 * ordering. In the future we may expose some of the utilities in
+	 * ReactMultiChild to make this easy, but for now React itself does not
+	 * directly have this concept of the union of prevChildren and nextChildren
+	 * so we implement it here.
+	 *
+	 * @param {object} prev prev children as returned from
+	 * `ReactTransitionChildMapping.getChildMapping()`.
+	 * @param {object} next next children as returned from
+	 * `ReactTransitionChildMapping.getChildMapping()`.
+	 * @return {object} a key set that contains all keys in `prev` and all keys
+	 * in `next` in a reasonable order.
+	 */
+	function mergeChildMappings(prev, next) {
+	  prev = prev || {};
+	  next = next || {};
+	
+	  function getValueForKey(key) {
+	    if (next.hasOwnProperty(key)) {
+	      return next[key];
+	    }
+	
+	    return prev[key];
+	  }
+	
+	  // For each key of `next`, the list of keys to insert before that key in
+	  // the combined list
+	  var nextKeysPending = {};
+	
+	  var pendingKeys = [];
+	  for (var prevKey in prev) {
+	    if (next.hasOwnProperty(prevKey)) {
+	      if (pendingKeys.length) {
+	        nextKeysPending[prevKey] = pendingKeys;
+	        pendingKeys = [];
+	      }
+	    } else {
+	      pendingKeys.push(prevKey);
+	    }
+	  }
+	
+	  var i = void 0;
+	  var childMapping = {};
+	  for (var nextKey in next) {
+	    if (nextKeysPending.hasOwnProperty(nextKey)) {
+	      for (i = 0; i < nextKeysPending[nextKey].length; i++) {
+	        var pendingNextKey = nextKeysPending[nextKey][i];
+	        childMapping[nextKeysPending[nextKey][i]] = getValueForKey(pendingNextKey);
+	      }
+	    }
+	    childMapping[nextKey] = getValueForKey(nextKey);
+	  }
+	
+	  // Finally, add the keys which didn't appear before any key in `next`
+	  for (i = 0; i < pendingKeys.length; i++) {
+	    childMapping[pendingKeys[i]] = getValueForKey(pendingKeys[i]);
+	  }
+	
+	  return childMapping;
+	}
+
+/***/ },
+/* 469 */
+/*!*************************************************************!*\
+  !*** ./~/react-transition-group/CSSTransitionGroupChild.js ***!
+  \*************************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
+	
+	exports.__esModule = true;
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _addClass = __webpack_require__(/*! dom-helpers/class/addClass */ 470);
+	
+	var _addClass2 = _interopRequireDefault(_addClass);
+	
+	var _removeClass = __webpack_require__(/*! dom-helpers/class/removeClass */ 472);
+	
+	var _removeClass2 = _interopRequireDefault(_removeClass);
+	
+	var _requestAnimationFrame = __webpack_require__(/*! dom-helpers/util/requestAnimationFrame */ 473);
+	
+	var _requestAnimationFrame2 = _interopRequireDefault(_requestAnimationFrame);
+	
+	var _properties = __webpack_require__(/*! dom-helpers/transition/properties */ 475);
+	
+	var _react = __webpack_require__(/*! react */ 13);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(/*! prop-types */ 48);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	var _reactDom = __webpack_require__(/*! react-dom */ 78);
+	
+	var _PropTypes = __webpack_require__(/*! ./utils/PropTypes */ 476);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var events = [];
+	if (_properties.transitionEnd) events.push(_properties.transitionEnd);
+	if (_properties.animationEnd) events.push(_properties.animationEnd);
+	
+	function addEndListener(node, listener) {
+	  if (events.length) {
+	    events.forEach(function (e) {
+	      return node.addEventListener(e, listener, false);
+	    });
+	  } else {
+	    setTimeout(listener, 0);
+	  }
+	
+	  return function () {
+	    if (!events.length) return;
+	    events.forEach(function (e) {
+	      return node.removeEventListener(e, listener, false);
+	    });
+	  };
+	}
+	
+	var propTypes = {
+	  children: _propTypes2.default.node,
+	  name: _PropTypes.nameShape.isRequired,
+	
+	  // Once we require timeouts to be specified, we can remove the
+	  // boolean flags (appear etc.) and just accept a number
+	  // or a bool for the timeout flags (appearTimeout etc.)
+	  appear: _propTypes2.default.bool,
+	  enter: _propTypes2.default.bool,
+	  leave: _propTypes2.default.bool,
+	  appearTimeout: _propTypes2.default.number,
+	  enterTimeout: _propTypes2.default.number,
+	  leaveTimeout: _propTypes2.default.number
+	};
+	
+	var CSSTransitionGroupChild = function (_React$Component) {
+	  _inherits(CSSTransitionGroupChild, _React$Component);
+	
+	  function CSSTransitionGroupChild() {
+	    var _temp, _this, _ret;
+	
+	    _classCallCheck(this, CSSTransitionGroupChild);
+	
+	    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+	      args[_key] = arguments[_key];
+	    }
+	
+	    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.componentWillAppear = function (done) {
+	      if (_this.props.appear) {
+	        _this.transition('appear', done, _this.props.appearTimeout);
+	      } else {
+	        done();
+	      }
+	    }, _this.componentWillEnter = function (done) {
+	      if (_this.props.enter) {
+	        _this.transition('enter', done, _this.props.enterTimeout);
+	      } else {
+	        done();
+	      }
+	    }, _this.componentWillLeave = function (done) {
+	      if (_this.props.leave) {
+	        _this.transition('leave', done, _this.props.leaveTimeout);
+	      } else {
+	        done();
+	      }
+	    }, _temp), _possibleConstructorReturn(_this, _ret);
+	  }
+	
+	  CSSTransitionGroupChild.prototype.componentWillMount = function componentWillMount() {
+	    this.classNameAndNodeQueue = [];
+	    this.transitionTimeouts = [];
+	  };
+	
+	  CSSTransitionGroupChild.prototype.componentWillUnmount = function componentWillUnmount() {
+	    this.unmounted = true;
+	
+	    if (this.timeout) {
+	      clearTimeout(this.timeout);
+	    }
+	    this.transitionTimeouts.forEach(function (timeout) {
+	      clearTimeout(timeout);
+	    });
+	
+	    this.classNameAndNodeQueue.length = 0;
+	  };
+	
+	  CSSTransitionGroupChild.prototype.transition = function transition(animationType, finishCallback, timeout) {
+	    var node = (0, _reactDom.findDOMNode)(this);
+	
+	    if (!node) {
+	      if (finishCallback) {
+	        finishCallback();
+	      }
+	      return;
+	    }
+	
+	    var className = this.props.name[animationType] || this.props.name + '-' + animationType;
+	    var activeClassName = this.props.name[animationType + 'Active'] || className + '-active';
+	    var timer = null;
+	    var removeListeners = void 0;
+	
+	    (0, _addClass2.default)(node, className);
+	
+	    // Need to do this to actually trigger a transition.
+	    this.queueClassAndNode(activeClassName, node);
+	
+	    // Clean-up the animation after the specified delay
+	    var finish = function finish(e) {
+	      if (e && e.target !== node) {
+	        return;
+	      }
+	
+	      clearTimeout(timer);
+	      if (removeListeners) removeListeners();
+	
+	      (0, _removeClass2.default)(node, className);
+	      (0, _removeClass2.default)(node, activeClassName);
+	
+	      if (removeListeners) removeListeners();
+	
+	      // Usually this optional callback is used for informing an owner of
+	      // a leave animation and telling it to remove the child.
+	      if (finishCallback) {
+	        finishCallback();
+	      }
+	    };
+	
+	    if (timeout) {
+	      timer = setTimeout(finish, timeout);
+	      this.transitionTimeouts.push(timer);
+	    } else if (_properties.transitionEnd) {
+	      removeListeners = addEndListener(node, finish);
+	    }
+	  };
+	
+	  CSSTransitionGroupChild.prototype.queueClassAndNode = function queueClassAndNode(className, node) {
+	    var _this2 = this;
+	
+	    this.classNameAndNodeQueue.push({
+	      className: className,
+	      node: node
+	    });
+	
+	    if (!this.rafHandle) {
+	      this.rafHandle = (0, _requestAnimationFrame2.default)(function () {
+	        return _this2.flushClassNameAndNodeQueue();
+	      });
+	    }
+	  };
+	
+	  CSSTransitionGroupChild.prototype.flushClassNameAndNodeQueue = function flushClassNameAndNodeQueue() {
+	    if (!this.unmounted) {
+	      this.classNameAndNodeQueue.forEach(function (obj) {
+	        // This is for to force a repaint,
+	        // which is necessary in order to transition styles when adding a class name.
+	        /* eslint-disable no-unused-expressions */
+	        obj.node.scrollTop;
+	        /* eslint-enable no-unused-expressions */
+	        (0, _addClass2.default)(obj.node, obj.className);
+	      });
+	    }
+	    this.classNameAndNodeQueue.length = 0;
+	    this.rafHandle = null;
+	  };
+	
+	  CSSTransitionGroupChild.prototype.render = function render() {
+	    var props = _extends({}, this.props);
+	    delete props.name;
+	    delete props.appear;
+	    delete props.enter;
+	    delete props.leave;
+	    delete props.appearTimeout;
+	    delete props.enterTimeout;
+	    delete props.leaveTimeout;
+	    delete props.children;
+	    return _react2.default.cloneElement(_react2.default.Children.only(this.props.children), props);
+	  };
+	
+	  return CSSTransitionGroupChild;
+	}(_react2.default.Component);
+	
+	CSSTransitionGroupChild.displayName = 'CSSTransitionGroupChild';
+	
+	
+	CSSTransitionGroupChild.propTypes = process.env.NODE_ENV !== "production" ? propTypes : {};
+	
+	exports.default = CSSTransitionGroupChild;
+	module.exports = exports['default'];
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./~/process/browser.js */ 12)))
+
+/***/ },
+/* 470 */
+/*!*****************************************!*\
+  !*** ./~/dom-helpers/class/addClass.js ***!
+  \*****************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = addClass;
+	
+	var _hasClass = __webpack_require__(/*! ./hasClass */ 471);
+	
+	var _hasClass2 = _interopRequireDefault(_hasClass);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function addClass(element, className) {
+	  if (element.classList) element.classList.add(className);else if (!(0, _hasClass2.default)(element)) element.className = element.className + ' ' + className;
+	}
+	module.exports = exports['default'];
+
+/***/ },
+/* 471 */
+/*!*****************************************!*\
+  !*** ./~/dom-helpers/class/hasClass.js ***!
+  \*****************************************/
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = hasClass;
+	function hasClass(element, className) {
+	  if (element.classList) return !!className && element.classList.contains(className);else return (" " + element.className + " ").indexOf(" " + className + " ") !== -1;
+	}
+	module.exports = exports["default"];
+
+/***/ },
+/* 472 */
+/*!********************************************!*\
+  !*** ./~/dom-helpers/class/removeClass.js ***!
+  \********************************************/
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	module.exports = function removeClass(element, className) {
+	  if (element.classList) element.classList.remove(className);else element.className = element.className.replace(new RegExp('(^|\\s)' + className + '(?:\\s|$)', 'g'), '$1').replace(/\s+/g, ' ').replace(/^\s*|\s*$/g, '');
+	};
+
+/***/ },
+/* 473 */
+/*!*****************************************************!*\
+  !*** ./~/dom-helpers/util/requestAnimationFrame.js ***!
+  \*****************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _inDOM = __webpack_require__(/*! ./inDOM */ 474);
+	
+	var _inDOM2 = _interopRequireDefault(_inDOM);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var vendors = ['', 'webkit', 'moz', 'o', 'ms'];
+	var cancel = 'clearTimeout';
+	var raf = fallback;
+	var compatRaf = void 0;
+	
+	var getKey = function getKey(vendor, k) {
+	  return vendor + (!vendor ? k : k[0].toUpperCase() + k.substr(1)) + 'AnimationFrame';
+	};
+	
+	if (_inDOM2.default) {
+	  vendors.some(function (vendor) {
+	    var rafKey = getKey(vendor, 'request');
+	
+	    if (rafKey in window) {
+	      cancel = getKey(vendor, 'cancel');
+	      return raf = function raf(cb) {
+	        return window[rafKey](cb);
+	      };
+	    }
+	  });
+	}
+	
+	/* https://github.com/component/raf */
+	var prev = new Date().getTime();
+	function fallback(fn) {
+	  var curr = new Date().getTime(),
+	      ms = Math.max(0, 16 - (curr - prev)),
+	      req = setTimeout(fn, ms);
+	
+	  prev = curr;
+	  return req;
+	}
+	
+	compatRaf = function compatRaf(cb) {
+	  return raf(cb);
+	};
+	compatRaf.cancel = function (id) {
+	  window[cancel] && typeof window[cancel] === 'function' && window[cancel](id);
+	};
+	exports.default = compatRaf;
+	module.exports = exports['default'];
+
+/***/ },
+/* 474 */
+/*!*************************************!*\
+  !*** ./~/dom-helpers/util/inDOM.js ***!
+  \*************************************/
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
+	module.exports = exports['default'];
+
+/***/ },
+/* 475 */
+/*!************************************************!*\
+  !*** ./~/dom-helpers/transition/properties.js ***!
+  \************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.animationEnd = exports.animationDelay = exports.animationTiming = exports.animationDuration = exports.animationName = exports.transitionEnd = exports.transitionDuration = exports.transitionDelay = exports.transitionTiming = exports.transitionProperty = exports.transform = undefined;
+	
+	var _inDOM = __webpack_require__(/*! ../util/inDOM */ 474);
+	
+	var _inDOM2 = _interopRequireDefault(_inDOM);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var transform = 'transform';
+	var prefix = void 0,
+	    transitionEnd = void 0,
+	    animationEnd = void 0;
+	var transitionProperty = void 0,
+	    transitionDuration = void 0,
+	    transitionTiming = void 0,
+	    transitionDelay = void 0;
+	var animationName = void 0,
+	    animationDuration = void 0,
+	    animationTiming = void 0,
+	    animationDelay = void 0;
+	
+	if (_inDOM2.default) {
+	  var _getTransitionPropert = getTransitionProperties();
+	
+	  prefix = _getTransitionPropert.prefix;
+	  exports.transitionEnd = transitionEnd = _getTransitionPropert.transitionEnd;
+	  exports.animationEnd = animationEnd = _getTransitionPropert.animationEnd;
+	
+	
+	  exports.transform = transform = prefix + '-' + transform;
+	  exports.transitionProperty = transitionProperty = prefix + '-transition-property';
+	  exports.transitionDuration = transitionDuration = prefix + '-transition-duration';
+	  exports.transitionDelay = transitionDelay = prefix + '-transition-delay';
+	  exports.transitionTiming = transitionTiming = prefix + '-transition-timing-function';
+	
+	  exports.animationName = animationName = prefix + '-animation-name';
+	  exports.animationDuration = animationDuration = prefix + '-animation-duration';
+	  exports.animationTiming = animationTiming = prefix + '-animation-delay';
+	  exports.animationDelay = animationDelay = prefix + '-animation-timing-function';
+	}
+	
+	exports.transform = transform;
+	exports.transitionProperty = transitionProperty;
+	exports.transitionTiming = transitionTiming;
+	exports.transitionDelay = transitionDelay;
+	exports.transitionDuration = transitionDuration;
+	exports.transitionEnd = transitionEnd;
+	exports.animationName = animationName;
+	exports.animationDuration = animationDuration;
+	exports.animationTiming = animationTiming;
+	exports.animationDelay = animationDelay;
+	exports.animationEnd = animationEnd;
+	exports.default = {
+	  transform: transform,
+	  end: transitionEnd,
+	  property: transitionProperty,
+	  timing: transitionTiming,
+	  delay: transitionDelay,
+	  duration: transitionDuration
+	};
+	
+	
+	function getTransitionProperties() {
+	  var style = document.createElement('div').style;
+	
+	  var vendorMap = {
+	    O: function O(e) {
+	      return 'o' + e.toLowerCase();
+	    },
+	    Moz: function Moz(e) {
+	      return e.toLowerCase();
+	    },
+	    Webkit: function Webkit(e) {
+	      return 'webkit' + e;
+	    },
+	    ms: function ms(e) {
+	      return 'MS' + e;
+	    }
+	  };
+	
+	  var vendors = Object.keys(vendorMap);
+	
+	  var transitionEnd = void 0,
+	      animationEnd = void 0;
+	  var prefix = '';
+	
+	  for (var i = 0; i < vendors.length; i++) {
+	    var vendor = vendors[i];
+	
+	    if (vendor + 'TransitionProperty' in style) {
+	      prefix = '-' + vendor.toLowerCase();
+	      transitionEnd = vendorMap[vendor]('TransitionEnd');
+	      animationEnd = vendorMap[vendor]('AnimationEnd');
+	      break;
+	    }
+	  }
+	
+	  if (!transitionEnd && 'transitionProperty' in style) transitionEnd = 'transitionend';
+	
+	  if (!animationEnd && 'animationName' in style) animationEnd = 'animationend';
+	
+	  style = null;
+	
+	  return { animationEnd: animationEnd, transitionEnd: transitionEnd, prefix: prefix };
+	}
+
+/***/ },
+/* 476 */
+/*!*****************************************************!*\
+  !*** ./~/react-transition-group/utils/PropTypes.js ***!
+  \*****************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	exports.__esModule = true;
+	exports.nameShape = undefined;
+	exports.transitionTimeout = transitionTimeout;
+	
+	var _react = __webpack_require__(/*! react */ 13);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(/*! prop-types */ 48);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function transitionTimeout(transitionType) {
+	  var timeoutPropName = 'transition' + transitionType + 'Timeout';
+	  var enabledPropName = 'transition' + transitionType;
+	
+	  return function (props) {
+	    // If the transition is enabled
+	    if (props[enabledPropName]) {
+	      // If no timeout duration is provided
+	      if (props[timeoutPropName] == null) {
+	        return new Error(timeoutPropName + ' wasn\'t supplied to CSSTransitionGroup: ' + 'this can cause unreliable animations and won\'t be supported in ' + 'a future version of React. See ' + 'https://fb.me/react-animation-transition-group-timeout for more ' + 'information.');
+	
+	        // If the duration isn't a number
+	      } else if (typeof props[timeoutPropName] !== 'number') {
+	        return new Error(timeoutPropName + ' must be a number (in milliseconds)');
+	      }
+	    }
+	
+	    return null;
+	  };
+	}
+	
+	var nameShape = exports.nameShape = _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.shape({
+	  enter: _propTypes2.default.string,
+	  leave: _propTypes2.default.string,
+	  active: _propTypes2.default.string
+	}), _propTypes2.default.shape({
+	  enter: _propTypes2.default.string,
+	  enterActive: _propTypes2.default.string,
+	  leave: _propTypes2.default.string,
+	  leaveActive: _propTypes2.default.string,
+	  appear: _propTypes2.default.string,
+	  appearActive: _propTypes2.default.string
+	})]);
+
+/***/ },
+/* 477 */
+/*!*****************************************!*\
+  !*** ./client/reducers/eventReducer.js ***!
+  \*****************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	exports.default = function () {
+	  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
+	  var action = arguments[1];
+	
+	  var newState = Object.assign({}, state);
+	
+	  switch (action.type) {
+	
+	    case _constants.RECEIVE_EVENTS:
+	      newState.events = action.events;
+	      console.log(newState.events);
+	      break;
+	    case _constants.ADD_NEW_EVENT:
+	      newState.events = [].concat(_toConsumableArray(newState.events), [action.event]);
+	      break;
+	    default:
+	      return state;
+	
+	  }
+	
+	  return newState;
+	};
+	
+	var _constants = __webpack_require__(/*! ../constants */ 235);
+	
+	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+	
+	var initialState = { events: [] };
 
 /***/ }
 /******/ ]);

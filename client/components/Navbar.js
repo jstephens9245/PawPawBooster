@@ -33,20 +33,20 @@ const Navbar = (props) => {
     </nav> */}
 
     <div className="nav-header" >
-      <Link href="/">
-        <a className="logo">Paw Paw Boosters</a>
+      <Link href="/" className="logo">
+        Paw Paw Boosters
       </Link>
-      <Link to="http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1" target="_blank">
-        <a className="link-style" >SignUp</a>
+      <Link to="/signup" className="link-style">
+        SignUp
       </Link>
-      <Link href="/events">
-        <a className="link-style" >Events</a>
+      <Link href="/events" className="link-style">
+        Events
       </Link>
-      <Link to="/assets/pawpaw_bilaws.pdf" target="_blank">
-        <a className="link-style" >Bi-laws</a>
+      <Link to="/assets/pawpaw_bilaws.pdf" target="_blank" className="link-style">
+        Bi-laws
       </Link>
-      <Link href="/aboutus">
-        <a className="link-style" >About Us</a>
+      <Link href="/aboutus" className="link-style">
+        About Us
       </Link>
     </div>
   </div>

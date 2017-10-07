@@ -52,11 +52,11 @@ export const searchUsername = (username) => dispatch => {
 };
 
 /* check login state by calling server and checking user sessions */
-export const checkLoginStatus = () => dispatch => {
-  return axios.get('/api/auth/')
-    .then(res => {
-      return res;
-    })
-    .then(res => dispatch(setLoginUser(res.data)))
-    .catch(err => console.error(err));
-};
+// export const checkLoginStatus = () => dispatch => {
+//   return axios.get('/api/auth/')
+//     .then(res => {
+//       return res;
+//     })
+//     .then(res => dispatch(setLoginUser(res.data)))
+//     .catch(err => console.error(err));
+// };
