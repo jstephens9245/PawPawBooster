@@ -59,11 +59,11 @@ export default class HomePageContainer extends Component {
 
         <div className="desc-container">
             <div className="left-desc">
-              <div className="left-desc-content">
-                <div className="left-desc-title">
-                  Paw Paw Boosters
-                </div>
+              <div className="booster-mission-container">
                 <p className="booster-mission-statement">
+                  <span className="left-desc-title">
+                    Paw Paw Boosters
+                  </span>
                   Complementing the Athletic Department by supporting,
                   encouraging and promoting athletic programs at Paw Paw Public
                   Schools while initiating and supporting worthwhile fundraising
