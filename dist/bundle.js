@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "cbc056fb40b577b5d4d6"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "e4b5f017d094386f4c2c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -1080,7 +1080,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Comfortaa);", ""]);
 	
 	// module
-	exports.push([module.id, "/** Settings\n */\n/** Tools\n * Mixins / Functions\n */\n/** Generic\n * Resets\n */\nbody {\n  box-sizing: border-box; }\n\n*, *::before, *::after {\n  position: relative;\n  box-sizing: inherit; }\n\nbody {\n  margin-top: 50px; }\n\n/** Base\n * Element styles (no classes)\n */\n/** Objects\n * Reusable layout patterns\n * class prefix: `o-`\n */\n.o-aspect-ratio {\n  display: block; }\n\n.o-aspect-ratio__inner {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%; }\n\n.o-aspect-ratio--sq {\n  padding: 100% 0 0 0; }\n\n.o-aspect-ratio--2-1 {\n  padding: 50% 0 0 0; }\n\n.o-aspect-ratio--1-2 {\n  padding: 200% 0 0 0; }\n\n/** Components\n * Patterns with a visual design\n * class prefix: `c-`\n */\n.nav-header a {\n  padding: 1em;\n  text-decoration: none;\n  color: black; }\n\n.mission-statement {\n  display: inline-block;\n  margin-left: 7em;\n  font-weight: bold; }\n\n.logo {\n  font-size: 2em;\n  margin-left: 2em; }\n\n.link-style {\n  font-size: 1.2em; }\n\n@media screen and (max-width: 1415px) {\n  .mission-statement {\n    margin-left: 5em; } }\n\n@media screen and (max-width: 1380px) {\n  .mission-statement {\n    margin-left: 3em; } }\n\n@media screen and (max-width: 1345px) {\n  .mission-statement {\n    margin-left: 1em; } }\n\n@media screen and (max-width: 1315px) {\n  .mission-statement {\n    display: none; } }\n\n@media screen and (max-width: 368px) {\n  .link-style {\n    font-size: 1em; }\n  .nav-header a {\n    padding: 0.5em; } }\n\n.homepage-container {\n  overflow: hidden;\n  position: relative;\n  font-family: \"Open Sans\", sans-serif; }\n\n.homepage-main-image-container {\n  position: relative; }\n\n.homepage-main-image {\n  width: 100vw;\n  max-width: 100%; }\n\n.main-slogan {\n  position: absolute;\n  top: 10%;\n  color: #fff;\n  font-size: 1.5rem;\n  font-weight: bold;\n  text-transform: uppercase;\n  text-align: center;\n  z-index: 999;\n  width: 100%;\n  text-shadow: 1px 1px 10px #000; }\n\n.main-mini-desc {\n  position: absolute;\n  top: 20%;\n  font-style: italic;\n  color: #fff;\n  font-size: 1.3rem;\n  text-align: center;\n  z-index: 999;\n  width: 100%;\n  text-shadow: 1px 1px 10px #000; }\n\ninput:focus {\n  outline: none; }\n\nbutton:focus {\n  outline: none; }\n\n.main-signup-button-container {\n  position: absolute;\n  top: 40%;\n  font-size: 1.8rem;\n  width: 100%;\n  text-align: center; }\n\n.main-signup-button {\n  width: 80%;\n  border-radius: 500px;\n  background-color: red;\n  color: white;\n  font-weight: bold;\n  font-family: \"Permanent Marker\";\n  border: none;\n  padding: 1.5rem 3rem;\n  cursor: pointer; }\n\n.main-signup-button:hover {\n  background-color: black;\n  color: red; }\n\n.border-line {\n  width: 90%;\n  border-bottom: 2px solid #7e8890;\n  margin: 0 auto;\n  margin-top: 3em; }\n\n.desc-container {\n  color: #333c4e; }\n\n.right-desc {\n  width: 100%; }\n  .right-desc img {\n    box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); }\n\n@media screen and (min-device-width: 414px) {\n  .main-slogan {\n    letter-spacing: 0.1em;\n    font-size: 1.9rem;\n    font-weight: normal; }\n  .main-mini-desc {\n    font-size: 1.6rem;\n    font-weight: normal; }\n  .main-signup-button {\n    width: 90%;\n    font-size: 1.9rem; } }\n\n.main-slogan {\n  letter-spacing: 0.1em;\n  font-size: 4rem;\n  font-weight: normal; }\n\n.main-mini-desc {\n  top: 40%;\n  font-size: 2rem;\n  font-weight: normal; }\n\n.main-signup-button-container {\n  top: 50%; }\n\n.main-signup-button {\n  width: 60%;\n  font-size: 2.5rem; }\n\n.left-desc {\n  width: 45%;\n  margin-left: 5%;\n  margin-top: 3%;\n  display: inline-block; }\n\n.left-desc-title {\n  text-align: left;\n  font-weight: 400;\n  text-decoration: underline;\n  font-size: 2em;\n  display: block;\n  padding-left: 1em;\n  padding-top: 1em; }\n\n.left-desc-content {\n  width: 100%;\n  text-align: left;\n  font-weight: 300;\n  font-size: 0.9em;\n  background: #aaaaaa;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  display: inline-block;\n  padding: 0em 2em 2em 2em; }\n\n.booster-mission-container {\n  width: 100%;\n  text-align: left;\n  font-weight: 300;\n  font-size: 0.9em;\n  line-height: 3em;\n  background: #aaaaaa;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  display: inline-block;\n  padding: 0em 2em 2em 2em;\n  color: black; }\n\n.volunteer {\n  width: 100%;\n  text-align: left;\n  font-weight: 300;\n  font-size: 0.9em;\n  background: #aaaaaa;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  display: inline-block;\n  padding: 2em 5em;\n  line-height: 3em;\n  margin-top: 1em;\n  color: black; }\n\n.volunteer-title {\n  font-size: 1.5em;\n  border-bottom: solid 0.1em black; }\n\n.right-desc {\n  width: 50%;\n  padding-right: 5em;\n  padding-left: 5em;\n  display: inline-block;\n  position: absolute;\n  top: 10%; }\n\n.right-desc-img {\n  width: 100%; }\n\n.team-desc {\n  display: block;\n  bottom: 0%;\n  width: 100%;\n  background: rgba(0, 0, 0, 0.5);\n  color: #fff;\n  font-weight: 300;\n  text-align: center;\n  height: 4em;\n  line-height: 4em;\n  letter-spacing: 0.2rem; }\n\n@media screen and (min-device-width: 1024px) {\n  .homepage-main-image {\n    margin: -11rem 0 -10rem 0; }\n  .main-slogan {\n    top: 30%;\n    letter-spacing: 0.1em;\n    font-size: 4rem;\n    font-weight: normal; }\n  .main-mini-desc {\n    font-size: 2rem;\n    font-weight: 300; }\n  .main-signup-button-container {\n    top: 50%; }\n  .main-signup-button {\n    width: 30%;\n    font-size: 2.5rem; }\n  .border-line {\n    margin-top: 15rem; }\n  /* typist css */\n  .Typist .Cursor--blinking {\n    opacity: 1;\n    -webkit-animation: blink 1s linear infinite;\n            animation: blink 1s linear infinite; }\n  @-webkit-keyframes blink {\n    0% {\n      opacity: 1; }\n    50% {\n      opacity: 0; }\n    100% {\n      opacity: 1; } }\n  @keyframes blink {\n    0% {\n      opacity: 1; }\n    50% {\n      opacity: 0; }\n    100% {\n      opacity: 1; } } }\n\n.sponsors-list {\n  width: 90%;\n  margin: auto;\n  text-align: center; }\n  .sponsors-list p {\n    font-size: 1.2em; }\n\n.sponsors-title {\n  text-align: left;\n  margin-left: 0.5em; }\n\n.sponsors-title-text {\n  margin-left: 1em;\n  text-align: left;\n  display: block;\n  vertical-align: middle;\n  font-size: 0.7em;\n  font-weight: normal;\n  font-style: italic; }\n\n.sponsor-class {\n  background: #aaaaaa;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  font-weight: bold;\n  margin: 0.5em;\n  display: inline-block;\n  vertical-align: top;\n  width: 32%;\n  height: 32em; }\n  .sponsor-class h3 {\n    text-decoration: underline; }\n\n.about-us-container {\n  width: 85%;\n  margin: auto; }\n  .about-us-container p {\n    background: #ff9b9b;\n    font-size: 1.2em;\n    padding: 0em 1em 1em 1em; }\n  .about-us-container h3 {\n    background: #ff9b9b;\n    margin-bottom: 0em;\n    padding: 0.5em 0em 0.5em 1em; }\n\n.shadow-box {\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); }\n\n.aboutus-title {\n  text-align: center;\n  margin-top: 3em; }\n\n.council-title {\n  text-align: center; }\n\n.booster-council {\n  width: 90%;\n  margin: auto; }\n\n.council-member {\n  text-align: center;\n  font-size: 1.2em;\n  display: inline-block;\n  width: 33.333%;\n  margin: auto;\n  margin-bottom: 0.5em;\n  border: 1px solid black; }\n\n.aboutus-paragraph {\n  margin: 0; }\n\ninput:focus {\n  outline: none; }\n\nbutton:focus {\n  outline: none; }\n\n.form-container {\n  font-family: \"Open Sans\", sans-serif;\n  width: 90vw;\n  background-color: #fff;\n  margin: 0 auto;\n  margin-top: 4em;\n  padding-bottom: 2em;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  border-bottom-right-radius: 60px 10px;\n  border-bottom-left-radius: 60px 10px; }\n\n.login {\n  min-height: 23em; }\n\n.signup {\n  min-height: 32em; }\n\n.signup-label {\n  text-align: center;\n  margin: 0 auto;\n  display: block;\n  padding-top: 2em; }\n\n.login-label {\n  text-align: center;\n  margin: 0 auto;\n  display: block;\n  padding-top: 2em; }\n\n.signup-input-field {\n  width: 80%;\n  text-align: left;\n  line-height: 2em;\n  height: 2em;\n  display: block;\n  margin: 0 auto;\n  margin-top: 1em;\n  padding: 1em 0.5em 1em 1em;\n  border-radius: 2px;\n  border: 1px solid #dfe0e6; }\n\n.login-input-field {\n  width: 100%;\n  text-align: left;\n  line-height: 2em;\n  display: block;\n  height: 2em;\n  margin-top: 1em;\n  padding: 1em 0.5em 1em 1em;\n  border-radius: 2px;\n  border: 1px solid #dfe0e6; }\n\n.login-input-field:focus {\n  border: 1px solid #4099FF; }\n\n.signup-input-field:focus {\n  border: 1px solid #4099FF; }\n\n.signup-disclaimer-container {\n  font-size: 0.65em;\n  width: 80%;\n  margin: 0 auto; }\n\n.alert-warning {\n  text-align: center;\n  margin: 0 auto;\n  font-weight: bold;\n  width: 80%;\n  line-height: 1em;\n  display: block;\n  margin-top: 1em;\n  border-radius: 2px;\n  border: 1px solid #dfe0e6; }\n\n.login-submit-button {\n  width: 80%;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  border-radius: 500px;\n  display: block;\n  background-color: #2EBD59;\n  border: none;\n  height: 2.5em;\n  margin-top: 0.8em;\n  font-weight: bold; }\n\n.signup-submit-button {\n  width: 80%;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  border-radius: 500px;\n  display: block;\n  background-color: #2EBD59;\n  border: none;\n  height: 2.5em;\n  margin-top: 0.8em;\n  font-weight: bold; }\n\n.login-link-container {\n  width: 80%;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  border-radius: 500px;\n  display: block;\n  background-color: #4099FF;\n  border: none;\n  height: 2.5em;\n  margin-top: 0.8em; }\n\n.signup-link-container {\n  width: 80%;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  border-radius: 500px;\n  display: block;\n  background-color: #4099FF;\n  border: none;\n  height: 2.5em;\n  margin-top: 0.8em; }\n\n@media screen and (min-device-width: 768px) {\n  .form-container {\n    width: 40vw;\n    background-color: #fff;\n    margin: 0 auto;\n    margin-top: 6em;\n    box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); } }\n\n.slideIn-appear {\n  margin-top: -500px; }\n\n.slideIn-appear.slideIn-appear-active {\n  margin-top: 0;\n  transition: margin-top 0.5s ease-in; }\n\n@-webkit-keyframes hvr-wobble-horizontal {\n  16.65% {\n    -webkit-transform: translateX(8px);\n    transform: translateX(8px); }\n  33.3% {\n    -webkit-transform: translateX(-6px);\n    transform: translateX(-6px); }\n  49.95% {\n    -webkit-transform: translateX(4px);\n    transform: translateX(4px); }\n  66.6% {\n    -webkit-transform: translateX(-2px);\n    transform: translateX(-2px); }\n  83.25% {\n    -webkit-transform: translateX(1px);\n    transform: translateX(1px); }\n  100% {\n    -webkit-transform: translateX(0);\n    transform: translateX(0); } }\n\n@keyframes hvr-wobble-horizontal {\n  16.65% {\n    -webkit-transform: translateX(8px);\n    transform: translateX(8px); }\n  33.3% {\n    -webkit-transform: translateX(-6px);\n    transform: translateX(-6px); }\n  49.95% {\n    -webkit-transform: translateX(4px);\n    transform: translateX(4px); }\n  66.6% {\n    -webkit-transform: translateX(-2px);\n    transform: translateX(-2px); }\n  83.25% {\n    -webkit-transform: translateX(1px);\n    transform: translateX(1px); }\n  100% {\n    -webkit-transform: translateX(0);\n    transform: translateX(0); } }\n\n.hvr-wobble-horizontal {\n  vertical-align: middle;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0); }\n\n.hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active, .hvr-wobble-horizontal-active {\n  -webkit-animation-name: hvr-wobble-horizontal;\n  animation-name: hvr-wobble-horizontal;\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-timing-function: ease-in-out;\n  animation-timing-function: ease-in-out;\n  -webkit-animation-iteration-count: 1;\n  animation-iteration-count: 1; }\n\n/** Controls\n * Override / Helper / Utility classes\n * class prefix: `ctrl-`\n */\n.ctrl-centered {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n      -ms-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%); }\n", ""]);
+	exports.push([module.id, "/** Settings\n */\n/** Tools\n * Mixins / Functions\n */\n/** Generic\n * Resets\n */\nbody {\n  box-sizing: border-box; }\n\n*, *::before, *::after {\n  position: relative;\n  box-sizing: inherit; }\n\nbody {\n  margin-top: 50px; }\n\n/** Base\n * Element styles (no classes)\n */\n/** Objects\n * Reusable layout patterns\n * class prefix: `o-`\n */\n.o-aspect-ratio {\n  display: block; }\n\n.o-aspect-ratio__inner {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%; }\n\n.o-aspect-ratio--sq {\n  padding: 100% 0 0 0; }\n\n.o-aspect-ratio--2-1 {\n  padding: 50% 0 0 0; }\n\n.o-aspect-ratio--1-2 {\n  padding: 200% 0 0 0; }\n\n/** Components\n * Patterns with a visual design\n * class prefix: `c-`\n */\n.nav-header a {\n  padding: 1em;\n  text-decoration: none;\n  color: black; }\n\n.mission-statement {\n  display: inline-block;\n  margin-left: 7em;\n  font-weight: bold; }\n\n.logo {\n  font-size: 2em;\n  margin-left: 2em; }\n\n.link-style {\n  font-size: 1.2em; }\n\n@media screen and (max-width: 1415px) {\n  .mission-statement {\n    margin-left: 5em; } }\n\n@media screen and (max-width: 1380px) {\n  .mission-statement {\n    margin-left: 3em; } }\n\n@media screen and (max-width: 1345px) {\n  .mission-statement {\n    margin-left: 1em; } }\n\n@media screen and (max-width: 1315px) {\n  .mission-statement {\n    display: none; } }\n\n@media screen and (max-width: 368px) {\n  .link-style {\n    font-size: 1em; }\n  .nav-header a {\n    padding: 0.5em; } }\n\n.homepage-container {\n  overflow: hidden;\n  position: relative;\n  font-family: \"Open Sans\", sans-serif; }\n\n.homepage-main-image-container {\n  position: relative; }\n\n.homepage-main-image {\n  width: 100vw;\n  max-width: 100%; }\n\n.main-slogan {\n  position: absolute;\n  top: 10%;\n  color: #fff;\n  font-size: 1.5rem;\n  font-weight: bold;\n  text-transform: uppercase;\n  text-align: center;\n  z-index: 999;\n  width: 100%;\n  text-shadow: 1px 1px 10px #000; }\n\n.main-mini-desc {\n  position: absolute;\n  top: 20%;\n  font-style: italic;\n  color: #fff;\n  font-size: 1.3rem;\n  text-align: center;\n  z-index: 999;\n  width: 100%;\n  text-shadow: 1px 1px 10px #000; }\n\ninput:focus {\n  outline: none; }\n\nbutton:focus {\n  outline: none; }\n\n.main-signup-button-container {\n  position: absolute;\n  top: 40%;\n  font-size: 1.8rem;\n  width: 100%;\n  text-align: center; }\n\n.main-signup-button {\n  width: 80%;\n  border-radius: 500px;\n  background-color: #660000;\n  color: white;\n  font-weight: bold;\n  font-family: \"Permanent Marker\";\n  border: none;\n  padding: 1.5rem 3rem;\n  cursor: pointer; }\n\n.main-signup-button:hover {\n  background-color: black;\n  color: #990000; }\n\n.border-line {\n  width: 90%;\n  border-bottom: 2px solid #7e8890;\n  margin: 0 auto;\n  margin-top: 3em; }\n\n.desc-container {\n  color: #333c4e; }\n\n.right-desc {\n  width: 100%; }\n  .right-desc img {\n    box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); }\n\n@media screen and (min-device-width: 414px) {\n  .main-slogan {\n    letter-spacing: 0.1em;\n    font-size: 1.9rem;\n    font-weight: normal; }\n  .main-mini-desc {\n    font-size: 1.6rem;\n    font-weight: normal; }\n  .main-signup-button {\n    width: 90%;\n    font-size: 1.9rem; } }\n\n.main-slogan {\n  letter-spacing: 0.1em;\n  font-size: 4rem;\n  font-weight: normal; }\n\n.main-mini-desc {\n  top: 40%;\n  font-size: 2rem;\n  font-weight: normal; }\n\n.main-signup-button-container {\n  top: 50%; }\n\n.main-signup-button {\n  width: 60%;\n  font-size: 2.5rem; }\n\n.left-desc {\n  width: 45%;\n  margin-left: 5%;\n  margin-top: 3%;\n  display: inline-block; }\n\n.left-desc-title {\n  text-align: left;\n  font-weight: 400;\n  text-decoration: underline;\n  font-size: 2em;\n  display: block;\n  padding-left: 1em;\n  padding-top: 1em; }\n\n.left-desc-content {\n  width: 100%;\n  text-align: left;\n  font-weight: 300;\n  font-size: 0.9em;\n  background: #aaaaaa;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  display: inline-block;\n  padding: 0em 2em 2em 2em; }\n\n.booster-mission-container {\n  width: 100%;\n  text-align: left;\n  font-weight: 300;\n  font-size: 0.9em;\n  line-height: 3em;\n  background: #aaaaaa;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  display: inline-block;\n  padding: 0em 2em 2em 2em;\n  color: black; }\n\n.volunteer {\n  width: 100%;\n  text-align: left;\n  font-weight: 300;\n  font-size: 0.9em;\n  background: #aaaaaa;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  display: inline-block;\n  padding: 2em 5em;\n  line-height: 3em;\n  margin-top: 1em;\n  color: black; }\n\n.volunteer-title {\n  font-size: 1.5em;\n  border-bottom: solid 0.1em black; }\n\n.right-desc {\n  width: 50%;\n  padding-right: 5em;\n  padding-left: 5em;\n  display: inline-block;\n  position: absolute;\n  top: 10%; }\n\n.right-desc-img {\n  width: 100%; }\n\n.team-desc {\n  display: block;\n  bottom: 0%;\n  width: 100%;\n  background: rgba(0, 0, 0, 0.5);\n  color: #fff;\n  font-weight: 300;\n  text-align: center;\n  height: 4em;\n  line-height: 4em;\n  letter-spacing: 0.2rem; }\n\n@media screen and (min-device-width: 1024px) {\n  .homepage-main-image {\n    margin: -11rem 0 -10rem 0; }\n  .main-slogan {\n    top: 30%;\n    letter-spacing: 0.1em;\n    font-size: 4rem;\n    font-weight: normal; }\n  .main-mini-desc {\n    font-size: 2rem;\n    font-weight: 300; }\n  .main-signup-button-container {\n    top: 50%; }\n  .main-signup-button {\n    width: 30%;\n    font-size: 2.5rem; }\n  .border-line {\n    margin-top: 15rem; }\n  /* typist css */\n  .Typist .Cursor--blinking {\n    opacity: 1;\n    -webkit-animation: blink 1s linear infinite;\n            animation: blink 1s linear infinite; }\n  @-webkit-keyframes blink {\n    0% {\n      opacity: 1; }\n    50% {\n      opacity: 0; }\n    100% {\n      opacity: 1; } }\n  @keyframes blink {\n    0% {\n      opacity: 1; }\n    50% {\n      opacity: 0; }\n    100% {\n      opacity: 1; } } }\n\n.sponsors-list {\n  width: 90%;\n  margin: auto;\n  text-align: center; }\n  .sponsors-list p {\n    font-size: 1.2em; }\n\n.sponsors-title {\n  text-align: left;\n  margin-left: 0.5em; }\n\n.sponsors-title-text {\n  margin-left: 1em;\n  text-align: left;\n  display: block;\n  vertical-align: middle;\n  font-size: 0.7em;\n  font-weight: normal;\n  font-style: italic; }\n\n.sponsor-class {\n  background: #aaaaaa;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  font-weight: bold;\n  margin: 0.5em;\n  display: inline-block;\n  vertical-align: top;\n  width: 32%;\n  height: 32em; }\n  .sponsor-class h3 {\n    text-decoration: underline; }\n\n.about-us-container {\n  width: 85%;\n  margin: auto;\n  color: white; }\n  .about-us-container p {\n    background: #660000;\n    font-size: 1.2em;\n    padding: 0em 1em 1em 1em; }\n  .about-us-container h3 {\n    background: #660000;\n    margin-bottom: 0em;\n    padding: 0.5em 0em 0.5em 1em; }\n\n.shadow-box {\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); }\n\n.aboutus-title {\n  text-align: center;\n  color: black;\n  margin-top: 3em; }\n\n.council-title {\n  text-align: center; }\n\n.booster-council {\n  width: 90%;\n  margin: auto; }\n\n.council-member {\n  text-align: center;\n  font-size: 1.2em;\n  display: inline-block;\n  width: 33.333%;\n  margin: auto;\n  margin-bottom: 0.5em;\n  border: 1px solid black; }\n\n.aboutus-paragraphs {\n  margin: 0; }\n\ninput:focus {\n  outline: none; }\n\nbutton:focus {\n  outline: none; }\n\n.form-container {\n  font-family: \"Open Sans\", sans-serif;\n  width: 90vw;\n  background-color: #fff;\n  margin: 0 auto;\n  margin-top: 4em;\n  padding-bottom: 2em;\n  box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32);\n  border-bottom-right-radius: 60px 10px;\n  border-bottom-left-radius: 60px 10px; }\n\n.login {\n  min-height: 23em; }\n\n.signup {\n  min-height: 32em; }\n\n.signup-label {\n  text-align: center;\n  margin: 0 auto;\n  display: block;\n  padding-top: 2em; }\n\n.login-label {\n  text-align: center;\n  margin: 0 auto;\n  display: block;\n  padding-top: 2em; }\n\n.signup-input-field {\n  width: 80%;\n  text-align: left;\n  line-height: 2em;\n  height: 2em;\n  display: block;\n  margin: 0 auto;\n  margin-top: 1em;\n  padding: 1em 0.5em 1em 1em;\n  border-radius: 2px;\n  border: 1px solid #dfe0e6; }\n\n.login-input-field {\n  width: 100%;\n  text-align: left;\n  line-height: 2em;\n  display: block;\n  height: 2em;\n  margin-top: 1em;\n  padding: 1em 0.5em 1em 1em;\n  border-radius: 2px;\n  border: 1px solid #dfe0e6; }\n\n.login-input-field:focus {\n  border: 1px solid #4099FF; }\n\n.signup-input-field:focus {\n  border: 1px solid #4099FF; }\n\n.signup-disclaimer-container {\n  font-size: 0.65em;\n  width: 80%;\n  margin: 0 auto; }\n\n.alert-warning {\n  text-align: center;\n  margin: 0 auto;\n  font-weight: bold;\n  width: 80%;\n  line-height: 1em;\n  display: block;\n  margin-top: 1em;\n  border-radius: 2px;\n  border: 1px solid #dfe0e6; }\n\n.login-submit-button {\n  width: 80%;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  border-radius: 500px;\n  display: block;\n  background-color: #2EBD59;\n  border: none;\n  height: 2.5em;\n  margin-top: 0.8em;\n  font-weight: bold; }\n\n.signup-submit-button {\n  width: 80%;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  border-radius: 500px;\n  display: block;\n  background-color: #2EBD59;\n  border: none;\n  height: 2.5em;\n  margin-top: 0.8em;\n  font-weight: bold; }\n\n.login-link-container {\n  width: 80%;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  border-radius: 500px;\n  display: block;\n  background-color: #4099FF;\n  border: none;\n  height: 2.5em;\n  margin-top: 0.8em; }\n\n.signup-link-container {\n  width: 80%;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  border-radius: 500px;\n  display: block;\n  background-color: #4099FF;\n  border: none;\n  height: 2.5em;\n  margin-top: 0.8em; }\n\n@media screen and (min-device-width: 768px) {\n  .form-container {\n    width: 40vw;\n    background-color: #fff;\n    margin: 0 auto;\n    margin-top: 6em;\n    box-shadow: 0 0 1px rgba(76, 86, 103, 0.25), 0 2px 18px rgba(31, 37, 50, 0.32); } }\n\n.slideIn-appear {\n  margin-top: -500px; }\n\n.slideIn-appear.slideIn-appear-active {\n  margin-top: 0;\n  transition: margin-top 0.5s ease-in; }\n\n@-webkit-keyframes hvr-wobble-horizontal {\n  16.65% {\n    -webkit-transform: translateX(8px);\n    transform: translateX(8px); }\n  33.3% {\n    -webkit-transform: translateX(-6px);\n    transform: translateX(-6px); }\n  49.95% {\n    -webkit-transform: translateX(4px);\n    transform: translateX(4px); }\n  66.6% {\n    -webkit-transform: translateX(-2px);\n    transform: translateX(-2px); }\n  83.25% {\n    -webkit-transform: translateX(1px);\n    transform: translateX(1px); }\n  100% {\n    -webkit-transform: translateX(0);\n    transform: translateX(0); } }\n\n@keyframes hvr-wobble-horizontal {\n  16.65% {\n    -webkit-transform: translateX(8px);\n    transform: translateX(8px); }\n  33.3% {\n    -webkit-transform: translateX(-6px);\n    transform: translateX(-6px); }\n  49.95% {\n    -webkit-transform: translateX(4px);\n    transform: translateX(4px); }\n  66.6% {\n    -webkit-transform: translateX(-2px);\n    transform: translateX(-2px); }\n  83.25% {\n    -webkit-transform: translateX(1px);\n    transform: translateX(1px); }\n  100% {\n    -webkit-transform: translateX(0);\n    transform: translateX(0); } }\n\n.hvr-wobble-horizontal {\n  vertical-align: middle;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0); }\n\n.hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active, .hvr-wobble-horizontal-active {\n  -webkit-animation-name: hvr-wobble-horizontal;\n  animation-name: hvr-wobble-horizontal;\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-timing-function: ease-in-out;\n  animation-timing-function: ease-in-out;\n  -webkit-animation-iteration-count: 1;\n  animation-iteration-count: 1; }\n\n.signup-style {\n  color: black;\n  margin-left: 1em;\n  text-shadow: 3px 3px #FF0000;\n  font-size: 5em;\n  font-weight: bold;\n  font-style: italic; }\n\n.signup-style:hover {\n  color: white;\n  text-shadow: 4px 4px #FF0000; }\n\n.signup-football {\n  background-image: url(\"/assets/pawpawphoto.jpg\");\n  width: 90%;\n  margin: auto;\n  height: 20em;\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: 20% 20%;\n  margin-top: 2em; }\n\n.signup-basketball {\n  background-image: url(\"/assets/basketball.jpg\");\n  width: 90%;\n  margin: auto;\n  height: 20em;\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: 40% 40%;\n  margin-top: 2em; }\n\n.signup-baseball {\n  background-image: url(\"/assets/baseball.jpg\");\n  width: 90%;\n  margin: auto;\n  height: 20em;\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: 20% 20%;\n  margin-top: 2em; }\n\n.footer-container {\n  width: 100%;\n  margin: auto;\n  height: 25em;\n  background: #660000;\n  margin-top: 2em;\n  margin-bottom: 2em; }\n\n.footer-section {\n  width: 25%;\n  display: inline-block;\n  color: white;\n  font-size: 1.15em;\n  text-align: left;\n  margin: 2em 2% 1em 2%;\n  vertical-align: top; }\n\n.footer-title {\n  border-bottom: 1px dotted white;\n  padding-bottom: 0.7em; }\n\n.footer-contact {\n  margin-left: 8%; }\n\n.footer-connect {\n  margin-right: 8%; }\n\n.footer-section-text {\n  display: block;\n  color: white;\n  margin-top: 1em;\n  margin-bottom: 1.7em; }\n\n.footer-section-text:hover {\n  color: white; }\n\n/** Controls\n * Override / Helper / Utility classes\n * class prefix: `ctrl-`\n */\n.ctrl-centered {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n      -ms-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%); }\n", ""]);
 	
 	// exports
 
@@ -32098,7 +32098,7 @@
 	            { className: 'main-signup-button-container' },
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/' },
+	              { to: '/signup' },
 	              _react2.default.createElement(
 	                'button',
 	                { type: 'button', className: 'main-signup-button' },
@@ -35528,6 +35528,10 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	var _Footer = __webpack_require__(/*! ./Footer */ 478);
+	
+	var _Footer2 = _interopRequireDefault(_Footer);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var myEventsList = [{
@@ -35662,7 +35666,8 @@
 	          }) : null
 	        )
 	      )
-	    )
+	    ),
+	    _react2.default.createElement(_Footer2.default, null)
 	  );
 	};
 	
@@ -44814,7 +44819,7 @@
   \**************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -44824,220 +44829,225 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	var _Footer = __webpack_require__(/*! ./Footer */ 478);
+	
+	var _Footer2 = _interopRequireDefault(_Footer);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var About = function About(props) {
 	  return _react2.default.createElement(
-	    "div",
+	    'div',
 	    null,
 	    _react2.default.createElement(
-	      "div",
-	      { className: "about-us-container" },
+	      'div',
+	      { className: 'about-us-container' },
 	      _react2.default.createElement(
-	        "h2",
-	        { className: "aboutus-title" },
-	        "Paw Paw Redskins Athletic Booster Inc."
+	        'h2',
+	        { className: 'aboutus-title' },
+	        'Paw Paw Redskins Athletic Booster Inc.'
 	      ),
 	      _react2.default.createElement(
-	        "div",
-	        { className: "shadow-box" },
+	        'div',
+	        { className: 'shadow-box' },
 	        _react2.default.createElement(
-	          "h3",
+	          'h3',
 	          null,
-	          "What are we?"
+	          'What are we?'
 	        ),
 	        _react2.default.createElement(
-	          "p",
-	          { className: "aboutus-paragraphs" },
-	          "A non-profit, 501c3 volunteer organization, made up of parents, coaches and community members that work to compliment the high school athletic department. The Booster Club works to enhance the facilities, equipment and opportunities for our student athletes and coaches."
+	          'p',
+	          { className: 'aboutus-paragraphs' },
+	          'A non-profit, 501c3 volunteer organization, made up of parents, coaches and community members that work to compliment the high school athletic department. The Booster Club works to enhance the facilities, equipment and opportunities for our student athletes and coaches.'
 	        )
 	      ),
 	      _react2.default.createElement(
-	        "div",
-	        { className: "shadow-box" },
+	        'div',
+	        { className: 'shadow-box' },
 	        _react2.default.createElement(
-	          "h3",
+	          'h3',
 	          null,
-	          "What do we do?"
+	          'What do we do?'
 	        ),
 	        _react2.default.createElement(
-	          "p",
-	          { className: "aboutus-paragraphs" },
-	          "The following are a few examples of what the Booster Club provides funds for: coaching clinics, team camps, upgrades to sports facilities and possible needed equipment and much more!"
+	          'p',
+	          { className: 'aboutus-paragraphs' },
+	          'The following are a few examples of what the Booster Club provides funds for: coaching clinics, team camps, upgrades to sports facilities and possible needed equipment and much more!'
 	        )
 	      ),
 	      _react2.default.createElement(
-	        "div",
-	        { className: "shadow-box" },
+	        'div',
+	        { className: 'shadow-box' },
 	        _react2.default.createElement(
-	          "h3",
+	          'h3',
 	          null,
-	          "What do we need from you?"
+	          'What do we need from you?'
 	        ),
 	        _react2.default.createElement(
-	          "p",
-	          { className: "aboutus-paragraphs" },
-	          "We need your help! We are in need of more parent involvement. A parent\u2019s level of involvement is completely up to you! Your willingness to become involved with the Booster Club would be greatly appreciated no matter how big or small. We are looking for parents to assist with concession stands and get involved with fund raising possibilities."
+	          'p',
+	          { className: 'aboutus-paragraphs' },
+	          'We need your help! We are in need of more parent involvement. A parent\u2019s level of involvement is completely up to you! Your willingness to become involved with the Booster Club would be greatly appreciated no matter how big or small. We are looking for parents to assist with concession stands and get involved with fund raising possibilities.'
 	        )
 	      ),
 	      _react2.default.createElement(
-	        "div",
-	        { className: "shadow-box" },
+	        'div',
+	        { className: 'shadow-box' },
 	        _react2.default.createElement(
-	          "h3",
+	          'h3',
 	          null,
-	          "Why should you get involved?"
+	          'Why should you get involved?'
 	        ),
 	        _react2.default.createElement(
-	          "p",
-	          { className: "aboutus-paragraphs" },
-	          "Participating in the Boosters is a great way to volunteer your time to provide Paw Paw athletes, coaches and sports programs with additional opportunities that they may not be able to experience otherwise! It\u2019s also a great way to meet more of the parents your kids go to school with and have some fun and laughs at the same time! Another perk for getting involved with the Boosters, if you work a minimum of 10 athletic events, you can receive a free sports pass the following year. A person receiving a complimentary pass can apply $55 (cost of a single pass) towards the purchase of a family pass."
+	          'p',
+	          { className: 'aboutus-paragraphs' },
+	          'Participating in the Boosters is a great way to volunteer your time to provide Paw Paw athletes, coaches and sports programs with additional opportunities that they may not be able to experience otherwise! It\u2019s also a great way to meet more of the parents your kids go to school with and have some fun and laughs at the same time! Another perk for getting involved with the Boosters, if you work a minimum of 10 athletic events, you can receive a free sports pass the following year. A person receiving a complimentary pass can apply $55 (cost of a single pass) towards the purchase of a family pass.'
 	        )
 	      ),
 	      _react2.default.createElement(
-	        "div",
-	        { className: "shadow-box" },
+	        'div',
+	        { className: 'shadow-box' },
 	        _react2.default.createElement(
-	          "h3",
+	          'h3',
 	          null,
-	          "When do we meet? Anyone is welcome to attend a meeting!"
+	          'When do we meet? Anyone is welcome to attend a meeting!'
 	        ),
 	        _react2.default.createElement(
-	          "p",
-	          { className: "aboutus-paragraphs" },
-	          "Meetings are held on the first Monday of each month unless it falls on a holiday, in the high school teacher\u2019s lounge @ 6:30. Meeting information is typically located in the Paw Paw High School daily announcements. The following is contact information for the officers on the Booster Board. Feel free to contact any of them if you have additional questions or if you would like more information about getting involved."
+	          'p',
+	          { className: 'aboutus-paragraphs' },
+	          'Meetings are held on the first Monday of each month unless it falls on a holiday, in the high school teacher\u2019s lounge @ 6:30. Meeting information is typically located in the Paw Paw High School daily announcements. The following is contact information for the officers on the Booster Board. Feel free to contact any of them if you have additional questions or if you would like more information about getting involved.'
 	        )
 	      )
 	    ),
 	    _react2.default.createElement(
-	      "h2",
-	      { className: "council-title" },
-	      "Council Members"
+	      'h2',
+	      { className: 'council-title' },
+	      'Council Members'
 	    ),
 	    _react2.default.createElement(
-	      "div",
-	      { className: "booster-council" },
+	      'div',
+	      { className: 'booster-council' },
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Chairperson"
+	        'p',
+	        { className: 'council-member' },
+	        'Chairperson'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Missy Burch"
+	        'p',
+	        { className: 'council-member' },
+	        'Missy Burch'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "mburch@vbisd.org"
+	        'p',
+	        { className: 'council-member' },
+	        'mburch@vbisd.org'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Vice-Chairperson"
+	        'p',
+	        { className: 'council-member' },
+	        'Vice-Chairperson'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Ashley Bowen"
+	        'p',
+	        { className: 'council-member' },
+	        'Ashley Bowen'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "jashli31@hotmail.com"
+	        'p',
+	        { className: 'council-member' },
+	        'jashli31@hotmail.com'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Treasurer"
+	        'p',
+	        { className: 'council-member' },
+	        'Treasurer'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Trish Downard"
+	        'p',
+	        { className: 'council-member' },
+	        'Trish Downard'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "trish.downard@gmail.com"
+	        'p',
+	        { className: 'council-member' },
+	        'trish.downard@gmail.com'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Publicity Chairperson"
+	        'p',
+	        { className: 'council-member' },
+	        'Publicity Chairperson'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Brenda Atkinson"
+	        'p',
+	        { className: 'council-member' },
+	        'Brenda Atkinson'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Brenda@bluefrogfundraising.com"
+	        'p',
+	        { className: 'council-member' },
+	        'Brenda@bluefrogfundraising.com'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Concession Stand Trustee"
+	        'p',
+	        { className: 'council-member' },
+	        'Concession Stand Trustee'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Kellee Davis"
+	        'p',
+	        { className: 'council-member' },
+	        'Kellee Davis'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "clarksfamily@hotmail.com"
+	        'p',
+	        { className: 'council-member' },
+	        'clarksfamily@hotmail.com'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Concession Stand Trustee"
+	        'p',
+	        { className: 'council-member' },
+	        'Concession Stand Trustee'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Sandy Curtis"
+	        'p',
+	        { className: 'council-member' },
+	        'Sandy Curtis'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "curtissj@comcast.net"
+	        'p',
+	        { className: 'council-member' },
+	        'curtissj@comcast.net'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Fundraiser Chairperson"
+	        'p',
+	        { className: 'council-member' },
+	        'Fundraiser Chairperson'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Andrea Toliver"
+	        'p',
+	        { className: 'council-member' },
+	        'Andrea Toliver'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "jtoliver_andrea@yahoo.com"
+	        'p',
+	        { className: 'council-member' },
+	        'jtoliver_andrea@yahoo.com'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Fundraiser Chairperson"
+	        'p',
+	        { className: 'council-member' },
+	        'Fundraiser Chairperson'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member" },
-	        "Janet LeForge"
+	        'p',
+	        { className: 'council-member' },
+	        'Janet LeForge'
 	      ),
 	      _react2.default.createElement(
-	        "p",
-	        { className: "council-member", style: { marginBottom: "2em" } },
-	        "Jfroe67001@aol.com"
+	        'p',
+	        { className: 'council-member', style: { marginBottom: "2em" } },
+	        'Jfroe67001@aol.com'
 	      )
-	    )
+	    ),
+	    _react2.default.createElement(_Footer2.default, null)
 	  );
 	};
 	
@@ -45062,6 +45072,10 @@
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 238);
 	
+	var _Footer = __webpack_require__(/*! ./Footer */ 478);
+	
+	var _Footer2 = _interopRequireDefault(_Footer);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	// import NavbarContainer from '../containers/NavbarContainer';
@@ -45078,12 +45092,9 @@
 	        { className: 'signup-football' },
 	        _react2.default.createElement(
 	          _reactRouter.Link,
-	          { to: 'http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1', target: '_blank' },
-	          _react2.default.createElement(
-	            'a',
-	            { className: 'link-style' },
-	            'Football'
-	          )
+	          { to: 'http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1',
+	            target: '_blank', className: 'signup-style' },
+	          'Football'
 	        )
 	      ),
 	      _react2.default.createElement(
@@ -45091,12 +45102,9 @@
 	        { className: 'signup-basketball' },
 	        _react2.default.createElement(
 	          _reactRouter.Link,
-	          { to: 'http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1', target: '_blank' },
-	          _react2.default.createElement(
-	            'a',
-	            { className: 'link-style' },
-	            'Basketball'
-	          )
+	          { to: 'http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1',
+	            target: '_blank', className: 'signup-style' },
+	          'Basketball'
 	        )
 	      ),
 	      _react2.default.createElement(
@@ -45104,19 +45112,99 @@
 	        { className: 'signup-baseball' },
 	        _react2.default.createElement(
 	          _reactRouter.Link,
-	          { to: 'http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1', target: '_blank' },
-	          _react2.default.createElement(
-	            'a',
-	            { className: 'link-style' },
-	            'Baseball'
-	          )
+	          { to: 'http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1',
+	            target: '_blank', className: 'signup-style' },
+	          'Baseball'
 	        )
 	      )
-	    )
+	    ),
+	    _react2.default.createElement(_Footer2.default, null)
 	  );
 	};
 	
 	exports.default = Signup;
+
+/***/ },
+/* 478 */
+/*!*************************************!*\
+  !*** ./client/components/Footer.js ***!
+  \*************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	'strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 13);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 238);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Footer = function Footer(props) {
+	  return _react2.default.createElement(
+	    'div',
+	    { className: 'footer-container' },
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'footer-section footer-contact' },
+	      _react2.default.createElement(
+	        'p',
+	        { className: 'footer-title' },
+	        'Contact Information'
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'footer-section' },
+	      _react2.default.createElement(
+	        'p',
+	        { className: 'footer-title' },
+	        'Menu'
+	      ),
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { href: '/', className: 'footer-section-text' },
+	        'Home'
+	      ),
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { to: '/signup', className: 'footer-section-text' },
+	        'SignUp'
+	      ),
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { href: '/events', className: 'footer-section-text' },
+	        'Events'
+	      ),
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { to: '/assets/pawpaw_bilaws.pdf', target: '_blank', className: 'footer-section-text' },
+	        'Bi-laws'
+	      ),
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { href: '/aboutus', className: 'footer-section-text' },
+	        'About Us'
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'footer-section footer-connect' },
+	      _react2.default.createElement(
+	        'p',
+	        { className: 'footer-title' },
+	        'Connect'
+	      )
+	    )
+	  );
+	};
+	exports.default = Footer;
 
 /***/ }
 /******/ ]);

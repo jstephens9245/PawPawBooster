@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer'
 
 const About = (props) => {
   return (
@@ -94,6 +95,7 @@ const About = (props) => {
         <p className="council-member" style={{marginBottom: "2em"}}>Jfroe67001@aol.com</p>
 
       </div>
+      <Footer />
     </div>
   );
 };

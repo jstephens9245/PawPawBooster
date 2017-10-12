@@ -25,7 +25,7 @@ export default class HomePageContainer extends Component {
           <div className="main-mini-desc"> Your collaboration makes us Great
           </div>
           <div className="main-signup-button-container">
-            <Link to="/">
+            <Link to="/signup">
             <button type="button" className="main-signup-button">GET STARTED</button>
             </Link>
           </div>

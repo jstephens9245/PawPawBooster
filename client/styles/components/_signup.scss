@@ -239,3 +239,59 @@ button:focus {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
+///////////// Sign up page
+
+.signup-style {
+  color: black;
+  margin-left: 1em;
+  text-shadow: 3px 3px #FF0000;
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
+}
+.signup-style:hover {
+  // background-color: black;
+  color: white;
+  text-shadow: 4px 4px #FF0000;
+
+}
+.signup-football {
+  background-image: url("/assets/pawpawphoto.jpg");
+  // background-size: cover;
+  width: 90%;
+  margin: auto;
+  height: 20em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 20%;
+  margin-top: 2em;
+  // height: 100%;
+  // text-indent: -9999px;
+}
+.signup-basketball{
+  background-image: url("/assets/basketball.jpg");
+  // background-size: cover;
+  width: 90%;
+  margin: auto;
+  height: 20em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40% 40%;
+  margin-top: 2em;
+  // height: 100%;
+  // text-indent: -9999px;
+}
+.signup-baseball {
+  background-image: url("/assets/baseball.jpg");
+  // background-size: cover;
+  width: 90%;
+  margin: auto;
+  height: 20em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 20%;
+  margin-top: 2em;
+  // height: 100%;
+  // text-indent: -9999px;
+}

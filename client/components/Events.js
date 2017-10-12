@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer'
 
 let myEventsList = [
   {
@@ -101,6 +102,7 @@ const Events = (props) => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
