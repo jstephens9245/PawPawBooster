@@ -4,7 +4,7 @@ import {Link} from 'react-router';
 const Navbar = (props) => {
   return (
     <div>
-    {/* <nav className="navbar navbar navbar-fixed-top" role="navigation">
+    <nav className="navbar navbar navbar-fixed-top" role="navigation">
       <div className="container-fluid">
         <div className="navbar-header" id='navHeader' >
           <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -30,9 +30,9 @@ const Navbar = (props) => {
           </ul>
         </div>
       </div>
-    </nav> */}
+    </nav>
 
-    <div className="nav-header" >
+    {/* <div className="nav-header" >
       <Link href="/" className="logo">
         Paw Paw Boosters
       </Link>
@@ -48,7 +48,7 @@ const Navbar = (props) => {
       <Link href="/aboutus" className="link-style">
         About Us
       </Link>
-    </div>
+    </div> */}
   </div>
   );
 };
