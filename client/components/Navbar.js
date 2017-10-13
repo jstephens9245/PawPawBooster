@@ -23,7 +23,7 @@ const Navbar = (props) => {
 
           <div id='navbar' className={props.navClass} aria-expanded={props.aria}>
             <ul className="nav navbar-nav" onClick={() => { props.newPage(); }}>
-              <li><Link to="http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1" target="_blank">Sign Up</Link></li>
+              <li><Link to="/signup">Sign Up</Link></li>
               <li><Link to="/events">Events</Link></li>
               <li><Link to="/assets/pawpaw_bilaws.pdf" target="_blank">Bi-laws</Link></li>
               <li><Link to="/aboutus">About Us</Link></li>

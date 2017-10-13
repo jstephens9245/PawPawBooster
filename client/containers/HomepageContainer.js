@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import Typist from 'react-typist';
+import Sponsers from '../components/Sponsers'
 
 export default class HomePageContainer extends Component {
 
@@ -89,7 +90,7 @@ export default class HomePageContainer extends Component {
         <div className="sponsors-list">
           <h2 className="sponsors-title">Corporate Sponsors</h2>
           <p className="sponsors-title-text"> - The people that have made this possible</p>
-          <div className="sponsor-class">
+          {/* <div className="sponsor-class">
             <h3>Gold: $1000</h3>
             <p>Advantage Roofing and Exteriors</p>
             <p>Lounsbury Excavating, Inc</p>
@@ -110,7 +111,7 @@ export default class HomePageContainer extends Component {
             <p>National Guard – Jason Brautigam</p>
             <p>LaCantina</p>
             <p>HotShotz swap for Reverse Raffle</p>
-            {/* <p>Pictures</p> */}
+            <p>Pictures</p>
           </div>
 
           <div className="sponsor-class">
@@ -124,9 +125,9 @@ export default class HomePageContainer extends Component {
             <p>McDonalds</p>
             <p>Paw Paw Rental</p>
             <p>Rainbow Lanes</p>
-          </div>
+          </div> */}
+          <Sponsers />
         </div>
-
         <div className="team-desc">
           Made by Joe Stephens
         </div>

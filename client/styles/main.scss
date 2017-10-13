@@ -27,12 +27,17 @@
  * Patterns with a visual design
  * class prefix: `c-`
  */
+
+// @import "slick-carousel/slick/slick.css";
+// @import "slick-carousel/slick/slick-theme.css";
+
 @import 'components/navbar';
 @import 'components/homepage';
 @import 'components/sponsers';
 @import 'components/aboutus';
 @import 'components/signup';
 @import 'components/footer';
+@import 'components/slider';
 
 
 
