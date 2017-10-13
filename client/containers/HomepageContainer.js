@@ -25,7 +25,7 @@ export default class HomePageContainer extends Component {
           <div className="main-mini-desc"> Your collaboration makes us Great
           </div>
           <div className="main-signup-button-container">
-            <Link to="/signup">
+            <Link to="/">
             <button type="button" className="main-signup-button">GET STARTED</button>
             </Link>
           </div>
@@ -59,17 +59,15 @@ export default class HomePageContainer extends Component {
 
         <div className="desc-container">
             <div className="left-desc">
-              <div className="booster-mission-container">
-                <p className="booster-mission-statement">
-                  <span className="left-desc-title">
-                    Paw Paw Boosters
-                  </span>
-                  Complementing the Athletic Department by supporting,
-                  encouraging and promoting athletic programs at Paw Paw Public
-                  Schools while initiating and supporting worthwhile fundraising
-                  projects for the sole purpose of enhancing the facilities,
-                  equipment and programs sponsored by the Athletic Department.
-                </p>
+              <div className="left-desc-content">
+                <div className="left-desc-title">
+                  Paw Paw Boosters
+                </div>
+                 Complementing the Athletic Department by supporting,
+                 encouraging and promoting athletic programs at Paw Paw Public
+                 Schools while initiating and supporting worthwhile fundraising
+                 projects for the sole purpose of enhancing the facilities,
+                 equipment and programs sponsored by the Athletic Department.
 
               </div>
 

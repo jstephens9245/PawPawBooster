@@ -74,6 +74,68 @@ button:focus {
   color: #990000;
 }
 
+.postit-view {
+  position: absolute;
+  top: 70%;
+  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  font-family: "Caveat Brush";
+}
+
+.bulb-img{
+  width: 100%;
+  vertical-align: top;
+}
+
+.postit{
+  box-sizing: border-box;
+  margin: 0.2em;
+  min-width: 3.7rem;
+  max-width: 3.7rem;
+  height: 3.7rem;
+  padding: 0.1em;
+  border:1px solid #E8E8E8;
+  font-size: 1.8rem;
+  text-align:center;
+  border-bottom-right-radius: 60px 5px;
+  vertical-align:middle;
+}
+
+.postit:nth-child(even){
+  -webkit-transform:rotate(4deg);
+	-moz-transform:rotate(4deg);
+}
+
+.postit:nth-child(odd){
+  -webkit-transform:rotate(-4deg);
+	-moz-transform:rotate(-4deg);
+}
+
+.yellow{
+  background: linear-gradient(135deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%);
+}
+
+.lightyellow {
+  background: linear-gradient(135deg, #ffffa5 81%,#ffffa5 82%,#ffffa5 82%,#ffffc6 100%);
+}
+
+.pink{
+  background: linear-gradient(135deg, #ff879b 81%,#ff879b 82%,#ffc7d0 100%);
+}
+.green{
+  background: linear-gradient(135deg, #b1ff87 81%,#b1ff87 82%,#dbffc7 100%);
+}
+
+.blue{
+   background: linear-gradient(135deg, #b3e8ff 81%,#b3e8ff 82%,#b3e8ff 100%);
+}
+
+.brightgreen {
+  background: linear-gradient(135deg, #b3ffc0 81%,#b3ffc0  82%,#dbffc7 100%);
+}
+
 .border-line {
   width: 90%;
   border-bottom: 2px solid $light-gray;
@@ -81,43 +143,41 @@ button:focus {
   margin-top: 3em;
 }
 
-
-//// ----------------------
-
 .desc-container {
   color: $dark-gray;
 }
 
-// .left-desc {
-//   width: 100%;
-//   // padding: 0.8em;
-//   line-height: 1.5em;
-// }
+.left-desc {
+  width: 100%;
+  padding: 0.8em;
+  line-height: 1.5em;
+}
 
-// .left-desc-title{
-//   width: 100%;
-//   text-align:center;
-//   font-weight: 300;
-//   font-size:1.5rem;
-//   background: #ff9b9b
-// }
+.left-desc-title{
+  width: 100%;
+  text-align:center;
+  font-weight: 300;
+  font-size:1.5rem;
+  background: #ff9b9b
+}
 
-// .left-desc-content{
-//   width: 100%;
-//   text-align: center;
-//   font-weight: 300;
-//   // color: $light-gray;
-//   font-size: 1rem;
-//   background: #ff9b9b;
-// }
-//
-// .volunteer {
-//   width: 100%;
-//   text-align: center;
-//   font-weight: 300;
-//   font-size: 1rem;
-//   color: black;
-// }
+.left-desc-content{
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+  // color: $light-gray;
+  font-size: 1rem;
+  background: #ff9b9b;
+}
+
+.volunteer {
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1rem;
+  background: #ff9b9b;
+  color: black;
+}
 
 .right-desc {
   width: 100%;
@@ -125,19 +185,15 @@ button:focus {
     box-shadow: 0 0 1px rgba(76,86,103,.25), 0 2px 18px rgba(31,37,50,.32);
   }
 }
-//
-// .right-desc-img{
-//   width: 100%;
-//   vertical-align: top;
-// }
-//
-// .team-desc {
-//   display: none;
-// }
-//
-// .booster-mission-statement{
-//   font-size: 1em;
-// }
+
+.right-desc-img{
+  width: 100%;
+}
+
+.team-desc {
+  display: none;
+}
+
 
 @media screen and (min-device-width: 414px) {
 
@@ -157,10 +213,18 @@ button:focus {
     font-size: 1.9rem;
   }
 
+  .postit {
+    min-width: 4.6rem;
+    max-width: 4.6rem;
+    height: 4.6rem;
+    font-size: 3rem;
+  }
+
+
 }
 
 
-// @media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 768px) {
 
   .main-slogan {
     letter-spacing: 0.1em;
@@ -183,36 +247,39 @@ button:focus {
     font-size: 2.5rem;
   }
 
+  .postit {
+    min-width: 7rem;
+    max-width: 7rem;
+    height: 7rem;
+    font-size: 3em;
+  }
+
   .desc-container {
-    // color: $dark-gray;
-    // display: flex;
-    // flex-direction: row;
-    // min-height: 60rem;
+    color: $dark-gray;
+    display: flex;
+    flex-direction: row;
+    min-height: 60rem;
   }
 
   .left-desc {
-    width: 45%;
-    margin-left: 5%;
-    margin-top: 3%;
-    // margin-bottom: 3em;
-    // padding: 2em 5em;
-    // line-height: 3em;
-    // height: 48.8rem;
-    display: inline-block;
-    // flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
+    width: 50%;
+    padding: 2em 5em;
+    line-height: 3em;
+    height: 48.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .left-desc-title{
     text-align:left;
     font-weight: 400;
     text-decoration: underline;
-    font-size: 2em;
-    display: block;
-    // background: #aaaaaa;
+    font-size:2rem;
+    background: #aaaaaa;
     padding-left: 1em;
-    // padding-right: 1em;
+    padding-right: 1em;
     padding-top: 1em;
   }
 
@@ -220,45 +287,28 @@ button:focus {
     width: 100%;
     text-align: left;
     font-weight: 300;
-    font-size: 0.9em;
+    // color: $light-gray;
+    font-size: 1.5rem;
     background: #aaaaaa;
     box-shadow: 0 0 1px rgba(76,86,103,.25), 0 2px 18px rgba(31,37,50,.32);
-    display: inline-block;
-
     // padding-left: 1em;
     // padding-right: 1em;
     padding: 0em 2em 2em 2em;
 
   }
-  .booster-mission-container {
-    width: 100%;
-    text-align: left;
-    font-weight: 300;
-    font-size: 0.9em;
-    line-height: 3em;
-    background: #aaaaaa;
-    box-shadow: 0 0 1px rgba(76,86,103,.25), 0 2px 18px rgba(31,37,50,.32);
-    display: inline-block;
-
-    padding: 0em 2em 2em 2em;
-
-    // line-height: 3em;
-    color: black;
-  }
   .volunteer {
+    padding: 2em 5em;
+    line-height: 3em;
+
+    display: inline-block;
+    margin-top: 1em;
     width: 100%;
     text-align: left;
     font-weight: 300;
-    font-size: 0.9em;
+    font-size: 1em;
     background: #aaaaaa;
-    box-shadow: 0 0 1px rgba(76,86,103,.25), 0 2px 18px rgba(31,37,50,.32);
-    display: inline-block;
-
-    padding: 2em 5em;
-
-    line-height: 3em;
-    margin-top: 1em;
     color: black;
+    box-shadow: 0 0 1px rgba(76,86,103,.25), 0 2px 18px rgba(31,37,50,.32);
     // padding-left: 1em;
     // padding-right: 1em;
   }
@@ -268,16 +318,11 @@ button:focus {
   }
   .right-desc {
     width: 50%;
-    padding-right: 5em;
-    padding-left: 5em;
-    display: inline-block;
-    position: absolute;
-    top: 10%;
+    padding: 2em 5em;
   }
 
   .right-desc-img{
     width: 100%;
-    // vertical-align: middle;
   }
 
   .team-desc {
@@ -285,7 +330,7 @@ button:focus {
     // position: fixed;
     bottom: 0%;
     width: 100%;
-    background: #660000;
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     font-weight: 300;
     text-align: center;
@@ -294,7 +339,7 @@ button:focus {
     letter-spacing: 0.2rem;
 }
 
-// }
+}
 
 @media screen and (min-device-width: 1024px) {
 
@@ -324,9 +369,9 @@ button:focus {
     font-size: 2.5rem;
   }
 
-  // .left-desc {
-  //   height: 60rem;
-  // }
+  .left-desc {
+    height: 60rem;
+  }
 
   .border-line {
     margin-top: 15rem;
