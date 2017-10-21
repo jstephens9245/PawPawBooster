@@ -1,7 +1,8 @@
 .navbar {
-  border-bottom: 1px solid black;
+  // border-bottom: 1px solid black;
   margin-bottom: 0;
-  background: $white;
+  // background: $white;
+  background: #660000;
   z-index: 99999;
 }
 
@@ -25,7 +26,13 @@
 }
 
 .navbar a {
-  color: $black;
+  color: white;
+}
+.navbar a:hover {
+  background: black !important;
+}
+.navbar-brand:hover {
+  background: white;
 }
 .icon-bar {
   background-color: black;

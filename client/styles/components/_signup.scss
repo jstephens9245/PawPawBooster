@@ -53,7 +53,46 @@ button:focus {
   border-radius: 2px;
   border: 1px solid #dfe0e6;
 }
-
+.description-input-field {
+  width: 80%;
+  text-align: left;
+  line-height: 2em;
+  // height: 2em;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+  padding: 1em 0.5em 1em 1em;
+  border-radius: 2px;
+  border: 1px solid #dfe0e6;
+}
+.event {
+  width: 90%;
+  margin: auto;
+}
+.event-title {
+  // margin-left:
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  color: #660000;
+}
+.event-schedule {
+  display: inline-block;
+  padding: 1em;
+  margin-right: 1em;
+  background: #e1e1e1;
+  font-size: 1.2em;
+  // opacity: 0.8;
+  padding-bottom: 0.5em;
+  width: 20%;
+  // text-align: top;
+}
+.event-description {
+  display: inline-block;
+  vertical-align: top;
+  // margin-top: 0.4em;
+  font-size: 1.5em;
+  width: 60%;
+}
 .login-input-field {
   width: 100%;
   text-align: left;
@@ -265,7 +304,7 @@ button:focus {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 20% 20%;
-  margin-top: 2em;
+  margin-top: 6em;
   // height: 100%;
   // text-indent: -9999px;
 }
