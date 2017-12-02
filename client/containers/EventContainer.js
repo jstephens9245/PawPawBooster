@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import {connect} from 'react-redux';
 import Events from '../components/Events';
-import {createEvent, deleteEvent, getAllEvents} from '../actions/event';
+import {createEvent, deleteEvent, getAllEvents, toggleClick} from '../actions/event';
 
 import isEmpty from 'lodash/isEmpty';
 import ReactTransitionGroup from 'react-addons-css-transition-group';
@@ -77,7 +77,9 @@ export class EventContainer extends Component {
                     wobbleError={this.state.wobbleError}
                     events={this.props.events}
                     type={this.state.type}
-                    deleteEvent={this.props.deleteEvent}/>
+                    deleteEvent={this.props.deleteEvent}
+                    toggleClicker={this.props.toggleClicker}
+                    toggle={this.props.toggle}/>
         </div>
     </ReactTransitionGroup>
     );
@@ -86,6 +88,7 @@ export class EventContainer extends Component {
 
 const mapStateToProps = (state) => ({
   events: state.event.events,
+  toggle: state.event.toggle,
 });
 
 const mapDispatchToProps = (dispatch) => {
@@ -98,6 +101,9 @@ const mapDispatchToProps = (dispatch) => {
     },
     deleteEvent: function(eventId) {
       dispatch(deleteEvent(eventId));
+    },
+    toggleClicker: (login) => {
+      dispatch(toggleClick(login));
     },
   };
 };

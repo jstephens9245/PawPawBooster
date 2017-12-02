@@ -1,7 +1,7 @@
-import {RECEIVE_EVENTS, ADD_NEW_EVENT} from '../constants';
+import {RECEIVE_EVENTS, ADD_NEW_EVENT, TOGGLE_CLICK} from '../constants';
 
 
-const initialState = { events: [] };
+const initialState = { events: [], toggle: false };
 
 export default function(state = initialState, action) {
   const newState = Object.assign({}, state);
@@ -10,10 +10,16 @@ export default function(state = initialState, action) {
 
   case RECEIVE_EVENTS:
     newState.events = action.events;
-    console.log(newState.events);
     break;
   case ADD_NEW_EVENT:
     newState.events = [ ...newState.events, action.event ];
+    break;
+  case TOGGLE_CLICK:
+    if(action.login === "PPRedskins") {
+      newState.toggle = true;
+    } else {
+      newState.toggle = false;
+    }
     break;
   default:
     return state;

@@ -1,10 +1,14 @@
 import axios from 'axios';
 
-import {RECEIVE_EVENTS, ADD_NEW_EVENT} from '../constants';
+import {RECEIVE_EVENTS, ADD_NEW_EVENT, TOGGLE_CLICK} from '../constants';
 
 export const receiveAllEvents = (events) => ({
   type: RECEIVE_EVENTS,
   events,
+});
+export const toggleClick = (login) => ({
+  type: TOGGLE_CLICK,
+  login,
 });
 
 export const addNewEvent= (event) => ({

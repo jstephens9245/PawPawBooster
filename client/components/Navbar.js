@@ -25,7 +25,7 @@ const Navbar = (props) => {
             <ul className="nav navbar-nav" onClick={() => { props.newPage(); }}>
               <li><Link to="/signup">Sign Up</Link></li>
               <li><Link to="/events">Events</Link></li>
-              <li><Link to="/assets/pawpaw_bilaws.pdf" target="_blank">Bi-laws</Link></li>
+              <li><Link to="/assets/pawpaw_bilaws.pdf" target="_blank">By-laws</Link></li>
               <li><Link to="/aboutus">About Us</Link></li>
           </ul>
         </div>
