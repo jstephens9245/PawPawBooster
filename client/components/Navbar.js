@@ -23,10 +23,10 @@ const Navbar = (props) => {
 
           <div id='navbar' className={props.navClass} aria-expanded={props.aria}>
             <ul className="nav navbar-nav" onClick={() => { props.newPage(); }}>
-              <li><Link to="/signup">Sign Up</Link></li>
-              <li><Link to="/events">Events</Link></li>
-              <li><Link to="/assets/pawpaw_bilaws.pdf" target="_blank">By-laws</Link></li>
-              <li><Link to="/aboutus">About Us</Link></li>
+              <li><Link className="click-color" to="/signup">Sign Up</Link></li>
+              <li><Link className="click-color" to="/events">Events</Link></li>
+              <li><Link className="click-color" to="/assets/pawpaw_bilaws.pdf" target="_blank">By-laws</Link></li>
+              <li><Link className="click-color" to="/aboutus">About Us</Link></li>
           </ul>
         </div>
       </div>

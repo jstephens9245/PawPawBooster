@@ -7,6 +7,9 @@ const Footer = (props) => {
     <div className="footer-container">
       <div className="footer-section footer-contact">
         <p className="footer-title">Contact Information</p>
+        <p className="footer-section-contact">Paw Paw Boosters</p>
+        <p className="footer-section-contact">30609 Red Arrow Hwy - Paw Paw, MI 49079</p>
+        <p className="footer-section-contact">pawpawathleticboosters@gmail.com</p>
       </div>
       <div className="footer-section">
         <p className="footer-title">Menu</p>
@@ -28,6 +31,7 @@ const Footer = (props) => {
       </div>
       <div className="footer-section footer-connect">
         <p className="footer-title">Connect</p>
+        <p className="footer-section-contact">facebook - comming soon</p>
       </div>
     </div>
   );

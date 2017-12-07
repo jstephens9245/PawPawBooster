@@ -11,21 +11,21 @@ const Signup = (props) => {
         <div className="signup-football">
           <Link to="http://www.signupgenius.com/go/4090c4da4aa2faafc1-football1"
           target="_blank" className="signup-style">
-            Football
+            Fall
           </Link>
         </div>
 
         <div className="signup-basketball">
           <Link to=""
           target="_blank" className="signup-style">
-            Basketball
+            Winter
           </Link>
         </div>
 
         <div className="signup-baseball">
           <Link to=""
           target="_blank" className="signup-style">
-            Baseball
+            Spring
           </Link>
         </div>
       </div>

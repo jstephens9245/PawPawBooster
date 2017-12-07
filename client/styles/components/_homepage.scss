@@ -158,25 +158,27 @@ button:focus {
   text-align:center;
   font-weight: 300;
   font-size:1.5rem;
-  background: #ff9b9b
+  background: #aaaaaa;
+  color: black;
 }
 
 .left-desc-content{
   width: 100%;
   text-align: center;
   font-weight: 300;
-  // color: $light-gray;
-  font-size: 1rem;
-  background: #ff9b9b;
+  font-size: 1.3rem;
+  background: #aaaaaa;
+  color: black;
 }
 
 .volunteer {
   width: 100%;
   text-align: center;
   font-weight: 300;
-  font-size: 1rem;
-  background: #ff9b9b;
+  font-size: 1.3rem;
+  background: #aaaaaa;
   color: black;
+  margin-top: 0.5em;
 }
 
 .right-desc {
@@ -288,7 +290,7 @@ button:focus {
     text-align: left;
     font-weight: 300;
     // color: $light-gray;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background: #aaaaaa;
     box-shadow: 0 0 1px rgba(76,86,103,.25), 0 2px 18px rgba(31,37,50,.32);
     // padding-left: 1em;
@@ -298,7 +300,7 @@ button:focus {
   }
   .volunteer {
     padding: 2em 5em;
-    line-height: 3em;
+    line-height: 2em;
 
     display: inline-block;
     margin-top: 1em;

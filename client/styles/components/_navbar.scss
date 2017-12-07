@@ -24,7 +24,6 @@
 .nav-tion {
   font-size: 1.3em;
 }
-
 .navbar a {
   color: white;
 }
@@ -117,6 +116,10 @@
 // float: right;
 font-size: 1.2em;
 }
+
+// .click-color:active {
+//   color: black !important;
+// }
 
 @for $i from 1 through 3 {
 @media screen and (max-width: 1450px - ($i * 35px)) {
