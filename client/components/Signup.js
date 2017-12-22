@@ -16,7 +16,7 @@ const Signup = (props) => {
         </div>
 
         <div className="signup-basketball">
-          <Link to=""
+          <Link to="http://www.signupgenius.com/go/4090C4DA4AA2FAAFC1-winter"
           target="_blank" className="signup-style">
             Winter
           </Link>

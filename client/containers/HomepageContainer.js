@@ -17,7 +17,7 @@ export default class HomePageContainer extends Component {
       <div className="homepage-container">
 
         <div className="homepage-main-image-container">
-          <img className="homepage-main-image" src="/assets/pawpawphoto.jpg"></img>
+          <img className="homepage-main-image" src="/assets/PawPawCollage2.jpg"></img>
           <div className="main-slogan">
           <Typist avgTypingDelay={130}>
           WORKING. BUILDING. TOGETHER.
