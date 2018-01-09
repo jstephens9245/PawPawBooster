@@ -82,10 +82,6 @@ const About = (props) => {
         <p className="council-member">Kellee Davis</p>
         <p className="council-member">clarksfamily@hotmail.com</p>
 
-        <p className="council-member">Concession Stand Trustee</p>
-        <p className="council-member">Sandy Curtis</p>
-        <p className="council-member">curtissj@comcast.net</p>
-
         <p className="council-member">Fundraiser Chairperson</p>
         <p className="council-member">Andrea Toliver</p>
         <p className="council-member">jtoliver_andrea@yahoo.com</p>
