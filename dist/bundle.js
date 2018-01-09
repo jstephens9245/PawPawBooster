@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "71fdfb70ad05af13b211"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "695cad7c50d878b33448"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -49285,21 +49285,6 @@
 	        'p',
 	        { className: 'council-member' },
 	        'clarksfamily@hotmail.com'
-	      ),
-	      _react2.default.createElement(
-	        'p',
-	        { className: 'council-member' },
-	        'Concession Stand Trustee'
-	      ),
-	      _react2.default.createElement(
-	        'p',
-	        { className: 'council-member' },
-	        'Sandy Curtis'
-	      ),
-	      _react2.default.createElement(
-	        'p',
-	        { className: 'council-member' },
-	        'curtissj@comcast.net'
 	      ),
 	      _react2.default.createElement(
 	        'p',
